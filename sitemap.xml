@@ -2,6 +2,13 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://heyfl.github.io/Bug-Log-Optimization/bug_in_spring-cloud_instance_registered_with_consul.html</loc>
+    
+    <lastmod>2019-08-25T12:09:48.324Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>https://heyfl.github.io/Make-A-Little-Progress-Every-Day/Make-A-Little-Progress-Every-Day.html</loc>
     
     <lastmod>2019-08-24T07:39:20.112Z</lastmod>
@@ -54,13 +61,6 @@
     <loc>https://heyfl.github.io/redis/Different-Between-Sentinel-And-Cluster.html</loc>
     
     <lastmod>2019-08-22T08:21:04.009Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://heyfl.github.io/Bug-Log/bug_in_spring-cloud_instance_registered_with_consul.html</loc>
-    
-    <lastmod>2019-08-22T08:21:04.007Z</lastmod>
     
   </url>
   
