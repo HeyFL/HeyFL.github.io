@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://heyfl.github.io/database/innodb-record-level-locks.html</loc>
+    <loc>https://heyfl.github.io/Make-A-Little-Progress-Every-Day/Make-A-Little-Progress-Every-Day.html</loc>
     <lastmod>2019-08-26</lastmod>
   </url>  <url>
-    <loc>https://heyfl.github.io/Make-A-Little-Progress-Every-Day/Make-A-Little-Progress-Every-Day.html</loc>
+    <loc>https://heyfl.github.io/database/innodb-record-level-locks.html</loc>
     <lastmod>2019-08-26</lastmod>
   </url>  <url>
     <loc>https://heyfl.github.io/Bug-Log-Optimization/bug_in_spring-cloud_instance_registered_with_consul.html</loc>
