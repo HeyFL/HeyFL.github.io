@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://heyfl.github.io/docker/redis/redis-cluster-with-docker.html</loc>
-    <lastmod>2019-12-09</lastmod>
-  </url>  <url>
-    <loc>https://heyfl.github.io/bookmarks/bookmarks.html</loc>
-    <lastmod>2019-12-09</lastmod>
+    <loc>https://heyfl.github.io/kafka/Kafka-Delay-Queue.html</loc>
+    <lastmod>2020-01-25</lastmod>
   </url>  <url>
     <loc>https://heyfl.github.io/Make-A-Little-Progress-Every-Day/Make-A-Little-Progress-Every-Day.html</loc>
+    <lastmod>2020-01-25</lastmod>
+  </url>  <url>
+    <loc>https://heyfl.github.io/bookmarks/bookmarks.html</loc>
     <lastmod>2019-12-09</lastmod>
   </url>  <url>
     <loc>https://heyfl.github.io/about/about.html</loc>
@@ -34,10 +34,10 @@
     <loc>https://heyfl.github.io/redis/Redis-Partitioning.html</loc>
     <lastmod>2019-08-22</lastmod>
   </url>  <url>
-    <loc>https://heyfl.github.io/redis/Redis-Install-Settring.html</loc>
+    <loc>https://heyfl.github.io/redis/Different-Between-Sentinel-And-Cluster.html</loc>
     <lastmod>2019-08-22</lastmod>
   </url>  <url>
-    <loc>https://heyfl.github.io/redis/Different-Between-Sentinel-And-Cluster.html</loc>
+    <loc>https://heyfl.github.io/redis/Redis-Install-Settring.html</loc>
     <lastmod>2019-08-22</lastmod>
   </url>
 </urlset>
