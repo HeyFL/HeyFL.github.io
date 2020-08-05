@@ -2,6 +2,13 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://heyfl.github.io/kafka/Kafka-Delay-Queue.html</loc>
+    
+    <lastmod>2020-08-05T09:53:44.727Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>https://heyfl.github.io/Make-A-Little-Progress-Every-Day/Make-A-Little-Progress-Every-Day.html</loc>
     
     <lastmod>2020-07-11T02:55:17.909Z</lastmod>
@@ -16,21 +23,14 @@
   </url>
   
   <url>
-    <loc>https://heyfl.github.io/kafka/Kafka-Delay-Queue.html</loc>
-    
-    <lastmod>2020-07-06T08:49:36.686Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://heyfl.github.io/redis/Redis-Partitioning.html</loc>
+    <loc>https://heyfl.github.io/redis/Different-Between-Sentinel-And-Cluster.html</loc>
     
     <lastmod>2019-11-08T07:46:21.388Z</lastmod>
     
   </url>
   
   <url>
-    <loc>https://heyfl.github.io/redis/Different-Between-Sentinel-And-Cluster.html</loc>
+    <loc>https://heyfl.github.io/redis/Redis-Partitioning.html</loc>
     
     <lastmod>2019-11-08T07:46:21.388Z</lastmod>
     

@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
+    <loc>https://heyfl.github.io/kafka/Kafka-Delay-Queue.html</loc>
+    <lastmod>2020-08-05</lastmod>
+  </url>  <url>
     <loc>https://heyfl.github.io/Make-A-Little-Progress-Every-Day/Make-A-Little-Progress-Every-Day.html</loc>
     <lastmod>2020-07-11</lastmod>
   </url>  <url>
     <loc>https://heyfl.github.io/redis/Redis-compress-design.html</loc>
     <lastmod>2020-07-11</lastmod>
-  </url>  <url>
-    <loc>https://heyfl.github.io/kafka/Kafka-Delay-Queue.html</loc>
-    <lastmod>2020-07-06</lastmod>
   </url>  <url>
     <loc>https://heyfl.github.io/bookmarks/bookmarks.html</loc>
     <lastmod>2019-11-20</lastmod>
@@ -16,10 +16,10 @@
     <loc>https://heyfl.github.io/about/about.html</loc>
     <lastmod>2019-11-08</lastmod>
   </url>  <url>
-    <loc>https://heyfl.github.io/redis/Redis-Partitioning.html</loc>
+    <loc>https://heyfl.github.io/redis/Different-Between-Sentinel-And-Cluster.html</loc>
     <lastmod>2019-11-08</lastmod>
   </url>  <url>
-    <loc>https://heyfl.github.io/redis/Different-Between-Sentinel-And-Cluster.html</loc>
+    <loc>https://heyfl.github.io/redis/Redis-Partitioning.html</loc>
     <lastmod>2019-11-08</lastmod>
   </url>  <url>
     <loc>https://heyfl.github.io/redis/Redis-Install-Settring.html</loc>
