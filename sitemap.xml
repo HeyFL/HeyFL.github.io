@@ -2,51 +2,23 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>https://heyfl.github.io/kafka/Kafka-Delay-Queue.html</loc>
-    
-    <lastmod>2020-07-06T08:15:03.024Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://heyfl.github.io/docker/undefined.html</loc>
-    
-    <lastmod>2020-01-22T09:27:39.395Z</lastmod>
-    
-  </url>
-  
-  <url>
     <loc>https://heyfl.github.io/Make-A-Little-Progress-Every-Day/Make-A-Little-Progress-Every-Day.html</loc>
     
-    <lastmod>2020-01-03T11:08:18.084Z</lastmod>
+    <lastmod>2020-07-11T02:55:17.909Z</lastmod>
     
   </url>
   
   <url>
-    <loc>https://heyfl.github.io/%E9%83%A8%E7%BD%B2/docker/zookeeper/zookeeper-cluster-with-docker.html</loc>
+    <loc>https://heyfl.github.io/redis/Redis-compress-design.html</loc>
     
-    <lastmod>2019-12-20T08:01:32.370Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://heyfl.github.io/%E9%83%A8%E7%BD%B2/docker/redis/redis-Sentinel-with-docker.html</loc>
-    
-    <lastmod>2019-12-20T08:01:32.367Z</lastmod>
+    <lastmod>2020-07-11T02:55:03.863Z</lastmod>
     
   </url>
   
   <url>
-    <loc>https://heyfl.github.io/%E9%83%A8%E7%BD%B2/docker/redis/redis-cluster-with-docker.html</loc>
+    <loc>https://heyfl.github.io/kafka/Kafka-Delay-Queue.html</loc>
     
-    <lastmod>2019-12-20T08:01:32.364Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://heyfl.github.io/Message/undefined.html</loc>
-    
-    <lastmod>2019-12-16T08:39:23.681Z</lastmod>
+    <lastmod>2020-07-06T08:49:36.686Z</lastmod>
     
   </url>
   
