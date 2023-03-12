@@ -1,20 +1,56 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
+    <loc>https://heyfl.github.io/kafka/kafka-remark.html</loc>
+    <lastmod>2023-03-12</lastmod>
+  </url>
+  <url>
+    <loc>https://heyfl.github.io/design/Weibo-feed-design.html</loc>
+    <lastmod>2023-03-12</lastmod>
+  </url>
+  <url>
     <loc>https://heyfl.github.io/about/about.html</loc>
-    <lastmod>2023-03-06</lastmod>
+    <lastmod>2023-03-12</lastmod>
+  </url>
+  <url>
+    <loc>https://heyfl.github.io/bookmarks/bookmarks.html</loc>
+    <lastmod>2023-03-12</lastmod>
+  </url>
+  <url>
+    <loc>https://heyfl.github.io/code-rules/todo-code-rules.html</loc>
+    <lastmod>2023-03-11</lastmod>
+  </url>
+  <url>
+    <loc>https://heyfl.github.io/code-rules/Code-Rules.html</loc>
+    <lastmod>2023-03-11</lastmod>
+  </url>
+  <url>
+    <loc>https://heyfl.github.io/code-rules/JUnit-code-rules.html</loc>
+    <lastmod>2023-03-11</lastmod>
+  </url>
+  <url>
+    <loc>https://heyfl.github.io/code-rules/MQ-code-rules.html</loc>
+    <lastmod>2023-03-11</lastmod>
+  </url>
+  <url>
+    <loc>https://heyfl.github.io/code-rules/db-code-rules.html</loc>
+    <lastmod>2023-03-11</lastmod>
+  </url>
+  <url>
+    <loc>https://heyfl.github.io/code-rules/MQ-code-rules.html</loc>
+    <lastmod>2023-03-11</lastmod>
+  </url>
+  <url>
+    <loc>https://heyfl.github.io/code-rules/exception-and-log-code-rules.html</loc>
+    <lastmod>2023-03-11</lastmod>
+  </url>
+  <url>
+    <loc>https://heyfl.github.io/code-rules/interface-code-rules.html</loc>
+    <lastmod>2023-03-11</lastmod>
   </url>
   <url>
     <loc>https://heyfl.github.io/Make-A-Little-Progress-Every-Day/Make-A-Little-Progress-Every-Day.html</loc>
     <lastmod>2022-11-29</lastmod>
-  </url>
-  <url>
-    <loc>https://heyfl.github.io/uncategorized/Weibo-feed-design.html</loc>
-    <lastmod>2022-07-31</lastmod>
-  </url>
-  <url>
-    <loc>https://heyfl.github.io/redis/Redis-compress-design.html</loc>
-    <lastmod>2022-07-04</lastmod>
   </url>
   <url>
     <loc>https://heyfl.github.io/framework-design/sec-kill-framework-design.html</loc>
@@ -41,10 +77,6 @@
     <lastmod>2022-07-04</lastmod>
   </url>
   <url>
-    <loc>https://heyfl.github.io/bookmarks/bookmarks.html</loc>
-    <lastmod>2022-07-04</lastmod>
-  </url>
-  <url>
     <loc>https://heyfl.github.io/Spring/Spring-Circular-Dependencies.html</loc>
     <lastmod>2022-07-04</lastmod>
   </url>
@@ -63,5 +95,13 @@
   <url>
     <loc>https://heyfl.github.io/Bug-Log-Optimization/bug_in_spring-cloud_instance_registered_with_consul.html</loc>
     <lastmod>2022-07-04</lastmod>
+  </url>
+  <url>
+    <loc>https://heyfl.github.io/design/snappy-compress-redis.html</loc>
+    <lastmod>2021-08-13</lastmod>
+  </url>
+  <url>
+    <loc>https://heyfl.github.io/design/Redis-compress-design.html</loc>
+    <lastmod>2021-03-20</lastmod>
   </url>
 </urlset> 

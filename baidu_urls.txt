@@ -1,5 +1,5 @@
-https://heyfl.github.io/redis/Redis-compress-design.html
+https://heyfl.github.io/kafka/kafka-remark.html
+https://heyfl.github.io/design/snappy-compress-redis.html
+https://heyfl.github.io/design/Redis-compress-design.html
 https://heyfl.github.io/framework-design/sec-kill-framework-design.html
-https://heyfl.github.io/uncategorized/Weibo-feed-design.html
-https://heyfl.github.io/kafka/Kafka-Delay-Queue.html
-https://heyfl.github.io/database/innodb-record-level-locks.html
+https://heyfl.github.io/design/Weibo-feed-design.html
