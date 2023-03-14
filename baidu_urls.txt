@@ -1,5 +1,5 @@
 https://heyfl.github.io/design/Hystrix-optimization.html
+https://heyfl.github.io/web/Reduce-half-of-the-cross-domain-requests.html
 https://heyfl.github.io/kafka/kafka-remark.html
 https://heyfl.github.io/design/snappy-compress-redis.html
 https://heyfl.github.io/design/Redis-compress-design.html
-https://heyfl.github.io/design/ES-Query-Optimization.html
