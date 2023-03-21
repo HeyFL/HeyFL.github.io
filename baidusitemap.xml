@@ -1,163 +1,163 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://heyfl.github.io/about/about.html</loc>
+    <loc>https://heyfl.gitee.io/about/about.html</loc>
     <lastmod>2023-03-21</lastmod>
   </url>
   <url>
-    <loc>https://heyfl.github.io/JVM/jvm-gc.html</loc>
+    <loc>https://heyfl.gitee.io/JVM/jvm-gc.html</loc>
     <lastmod>2023-03-20</lastmod>
   </url>
   <url>
-    <loc>https://heyfl.github.io/Bug-Log-Optimization/elasticJob-bug-fix.html</loc>
+    <loc>https://heyfl.gitee.io/Bug-Log-Optimization/elasticJob-bug-fix.html</loc>
     <lastmod>2023-03-17</lastmod>
   </url>
   <url>
-    <loc>https://heyfl.github.io/Make-A-Little-Progress-Every-Day/Make-A-Little-Progress-Every-Day.html</loc>
+    <loc>https://heyfl.gitee.io/Make-A-Little-Progress-Every-Day/Make-A-Little-Progress-Every-Day.html</loc>
     <lastmod>2023-03-15</lastmod>
   </url>
   <url>
-    <loc>https://heyfl.github.io/JVM/JVM-Memory-Structure-Menu.html</loc>
+    <loc>https://heyfl.gitee.io/JVM/JVM-Memory-Structure-Menu.html</loc>
     <lastmod>2023-03-15</lastmod>
   </url>
   <url>
-    <loc>https://heyfl.github.io/JVM/JVM-Memory-Structure-Stack.html</loc>
+    <loc>https://heyfl.gitee.io/JVM/JVM-Memory-Structure-Stack.html</loc>
     <lastmod>2023-03-15</lastmod>
   </url>
   <url>
-    <loc>https://heyfl.github.io/Distributed/How-To-Use-Distributed-Transaction.html</loc>
+    <loc>https://heyfl.gitee.io/Distributed/How-To-Use-Distributed-Transaction.html</loc>
     <lastmod>2023-03-15</lastmod>
   </url>
   <url>
-    <loc>https://heyfl.github.io/bookmarks/bookmarks.html</loc>
+    <loc>https://heyfl.gitee.io/bookmarks/bookmarks.html</loc>
     <lastmod>2023-03-13</lastmod>
   </url>
   <url>
-    <loc>https://heyfl.github.io/kafka/Kafka-Delay-Queue.html</loc>
+    <loc>https://heyfl.gitee.io/kafka/Kafka-Delay-Queue.html</loc>
     <lastmod>2023-03-13</lastmod>
   </url>
   <url>
-    <loc>https://heyfl.github.io/kafka/kafka-remark.html</loc>
+    <loc>https://heyfl.gitee.io/kafka/kafka-remark.html</loc>
     <lastmod>2023-03-13</lastmod>
   </url>
   <url>
-    <loc>https://heyfl.github.io/Spring/Spring-Circular-Dependencies.html</loc>
+    <loc>https://heyfl.gitee.io/Spring/Spring-Circular-Dependencies.html</loc>
     <lastmod>2023-03-12</lastmod>
   </url>
   <url>
-    <loc>https://heyfl.github.io/code-rules/todo-code-rules.html</loc>
+    <loc>https://heyfl.gitee.io/code-rules/todo-code-rules.html</loc>
     <lastmod>2023-03-11</lastmod>
   </url>
   <url>
-    <loc>https://heyfl.github.io/code-rules/Code-Rules.html</loc>
+    <loc>https://heyfl.gitee.io/code-rules/Code-Rules.html</loc>
     <lastmod>2023-03-11</lastmod>
   </url>
   <url>
-    <loc>https://heyfl.github.io/code-rules/JUnit-code-rules.html</loc>
+    <loc>https://heyfl.gitee.io/code-rules/JUnit-code-rules.html</loc>
     <lastmod>2023-03-11</lastmod>
   </url>
   <url>
-    <loc>https://heyfl.github.io/code-rules/MQ-code-rules.html</loc>
+    <loc>https://heyfl.gitee.io/code-rules/MQ-code-rules.html</loc>
     <lastmod>2023-03-11</lastmod>
   </url>
   <url>
-    <loc>https://heyfl.github.io/code-rules/db-code-rules.html</loc>
+    <loc>https://heyfl.gitee.io/code-rules/db-code-rules.html</loc>
     <lastmod>2023-03-11</lastmod>
   </url>
   <url>
-    <loc>https://heyfl.github.io/code-rules/MQ-code-rules.html</loc>
+    <loc>https://heyfl.gitee.io/code-rules/MQ-code-rules.html</loc>
     <lastmod>2023-03-11</lastmod>
   </url>
   <url>
-    <loc>https://heyfl.github.io/code-rules/exception-and-log-code-rules.html</loc>
+    <loc>https://heyfl.gitee.io/code-rules/exception-and-log-code-rules.html</loc>
     <lastmod>2023-03-11</lastmod>
   </url>
   <url>
-    <loc>https://heyfl.github.io/code-rules/interface-code-rules.html</loc>
+    <loc>https://heyfl.gitee.io/code-rules/interface-code-rules.html</loc>
     <lastmod>2023-03-11</lastmod>
   </url>
   <url>
-    <loc>https://heyfl.github.io/Bug-Log-Optimization/thread-pool-use-error.html</loc>
+    <loc>https://heyfl.gitee.io/Bug-Log-Optimization/thread-pool-use-error.html</loc>
     <lastmod>2022-11-04</lastmod>
   </url>
   <url>
-    <loc>https://heyfl.github.io/web/Reduce-half-of-the-cross-domain-requests.html</loc>
+    <loc>https://heyfl.gitee.io/web/Reduce-half-of-the-cross-domain-requests.html</loc>
     <lastmod>2022-09-20</lastmod>
   </url>
   <url>
-    <loc>https://heyfl.github.io/design/Hystrix-optimization.html</loc>
+    <loc>https://heyfl.gitee.io/design/Hystrix-optimization.html</loc>
     <lastmod>2022-09-13</lastmod>
   </url>
   <url>
-    <loc>https://heyfl.github.io/design/hbase-data-compress.html</loc>
+    <loc>https://heyfl.gitee.io/design/hbase-data-compress.html</loc>
     <lastmod>2022-09-12</lastmod>
   </url>
   <url>
-    <loc>https://heyfl.github.io/design/hbase-region-data-skew.html</loc>
+    <loc>https://heyfl.gitee.io/design/hbase-region-data-skew.html</loc>
     <lastmod>2022-08-22</lastmod>
   </url>
   <url>
-    <loc>https://heyfl.github.io/framework-design/sec-kill-framework-design.html</loc>
+    <loc>https://heyfl.gitee.io/framework-design/sec-kill-framework-design.html</loc>
     <lastmod>2022-07-04</lastmod>
   </url>
   <url>
-    <loc>https://heyfl.github.io/redis/Different-Between-Sentinel-And-Cluster.html</loc>
+    <loc>https://heyfl.gitee.io/redis/Different-Between-Sentinel-And-Cluster.html</loc>
     <lastmod>2022-07-04</lastmod>
   </url>
   <url>
-    <loc>https://heyfl.github.io/redis/Redis-Partitioning.html</loc>
+    <loc>https://heyfl.gitee.io/redis/Redis-Partitioning.html</loc>
     <lastmod>2022-07-04</lastmod>
   </url>
   <url>
-    <loc>https://heyfl.github.io/redis/Redis-Install-Settring.html</loc>
+    <loc>https://heyfl.gitee.io/redis/Redis-Install-Settring.html</loc>
     <lastmod>2022-07-04</lastmod>
   </url>
   <url>
-    <loc>https://heyfl.github.io/database/innodb-record-level-locks.html</loc>
+    <loc>https://heyfl.gitee.io/database/innodb-record-level-locks.html</loc>
     <lastmod>2022-07-04</lastmod>
   </url>
   <url>
-    <loc>https://heyfl.github.io/database/careful-when-use-mycat.html</loc>
+    <loc>https://heyfl.gitee.io/database/careful-when-use-mycat.html</loc>
     <lastmod>2022-05-07</lastmod>
   </url>
   <url>
-    <loc>https://heyfl.github.io/database/sub_library_and_sub_table.html</loc>
+    <loc>https://heyfl.gitee.io/database/sub_library_and_sub_table.html</loc>
     <lastmod>2022-05-07</lastmod>
   </url>
   <url>
-    <loc>https://heyfl.github.io/system/IO-model.html</loc>
+    <loc>https://heyfl.gitee.io/system/IO-model.html</loc>
     <lastmod>2021-12-10</lastmod>
   </url>
   <url>
-    <loc>https://heyfl.github.io/design/snappy-compress-redis.html</loc>
+    <loc>https://heyfl.gitee.io/design/snappy-compress-redis.html</loc>
     <lastmod>2021-08-13</lastmod>
   </url>
   <url>
-    <loc>https://heyfl.github.io/design/database-scale.html</loc>
+    <loc>https://heyfl.gitee.io/design/database-scale.html</loc>
     <lastmod>2021-08-10</lastmod>
   </url>
   <url>
-    <loc>https://heyfl.github.io/design/Weibo-feed-design.html</loc>
+    <loc>https://heyfl.gitee.io/design/Weibo-feed-design.html</loc>
     <lastmod>2021-07-02</lastmod>
   </url>
   <url>
-    <loc>https://heyfl.github.io/design/Redis-compress-design.html</loc>
+    <loc>https://heyfl.gitee.io/design/Redis-compress-design.html</loc>
     <lastmod>2021-03-20</lastmod>
   </url>
   <url>
-    <loc>https://heyfl.github.io/design/ES-Query-Optimization.html</loc>
+    <loc>https://heyfl.gitee.io/design/ES-Query-Optimization.html</loc>
     <lastmod>2021-03-10</lastmod>
   </url>
   <url>
-    <loc>https://heyfl.github.io/system/jstack-ding-wei-xian-shang-wen-ti.html</loc>
+    <loc>https://heyfl.gitee.io/system/jstack-ding-wei-xian-shang-wen-ti.html</loc>
     <lastmod>2018-12-10</lastmod>
   </url>
   <url>
-    <loc>https://heyfl.github.io/Bug-Log-Optimization/bug_in_spring-cloud_instance_registered_with_consul.html</loc>
+    <loc>https://heyfl.gitee.io/Bug-Log-Optimization/bug_in_spring-cloud_instance_registered_with_consul.html</loc>
     <lastmod>2018-10-03</lastmod>
   </url>
   <url>
-    <loc>https://heyfl.github.io/java/HashMap-JDK1.8.html</loc>
+    <loc>https://heyfl.gitee.io/java/HashMap-JDK1.8.html</loc>
     <lastmod>2017-04-19</lastmod>
   </url>
 </urlset> 
