@@ -29,7 +29,27 @@
       switchTab();
       window.addEventListener('hashchange', switchTab, false);
   })();
-  </script><!-- hexo injector head_end end --><meta name="generator" content="Hexo 6.3.0"></head><body class="is-2-column"><nav class="navbar navbar-main"><div class="container navbar-container"><div class="navbar-brand justify-content-center"><a class="navbar-item navbar-logo" href="/"><img src="/img/avatar.png" alt="神奇宝贝大师的技术博客" height="28"></a></div><div class="navbar-menu"><div class="navbar-start"><a class="navbar-item" href="/">主页</a><a class="navbar-item" href="/archives">归档</a><a class="navbar-item" href="/categories">分类</a><a class="navbar-item" href="/tags">标签</a><a class="navbar-item" href="/about/about.html">关于</a></div><div class="navbar-end"><a class="navbar-item" target="_blank" rel="noopener" title="Download on GitHub" href="https://heyfl.github.io"><i class="fab fa-github"></i></a><a class="navbar-item search" title="搜索" href="javascript:;"><i class="fas fa-search"></i></a></div></div></div></nav><section class="section"><div class="container"><div class="columns"><div class="column order-2 column-main is-8-tablet is-8-desktop is-8-widescreen"><div class="card"><article class="card-content article" role="article"><div class="article-meta is-size-7 is-uppercase level is-mobile"><div class="level-left"><span class="level-item"><time datetime="2019-10-20T12:37:16.000Z" title="2019/10/20 20:37:16">2019-10-20</time>发表</span><span class="level-item"><time datetime="2023-03-11T17:53:17.742Z" title="2023/3/12 01:53:17">2023-03-12</time>更新</span><span class="level-item"><a class="link-muted" href="/categories/code-rules/">code-rules</a></span><span class="level-item">1 分钟读完 (大约188个字)</span></div></div><p class="title is-3 is-size-4-mobile"><a class="link-muted" href="/code-rules/exception-and-log-code-rules.html">异常处理与日志篇</a></p><div class="content" id="article"><h3 id="异常处理">异常处理</h3>
+  </script><!-- hexo injector head_end end --><meta name="generator" content="Hexo 6.3.0"></head><body class="is-2-column"><nav class="navbar navbar-main"><div class="container navbar-container"><div class="navbar-brand justify-content-center"><a class="navbar-item navbar-logo" href="/"><img src="/img/avatar.png" alt="神奇宝贝大师的技术博客" height="28"></a></div><div class="navbar-menu"><div class="navbar-start"><a class="navbar-item" href="/">主页</a><a class="navbar-item" href="/archives">归档</a><a class="navbar-item" href="/categories">分类</a><a class="navbar-item" href="/tags">标签</a><a class="navbar-item" href="/about/about.html">关于</a></div><div class="navbar-end"><a class="navbar-item" target="_blank" rel="noopener" title="Download on GitHub" href="https://heyfl.github.io"><i class="fab fa-github"></i></a><a class="navbar-item search" title="搜索" href="javascript:;"><i class="fas fa-search"></i></a></div></div></div></nav><section class="section"><div class="container"><div class="columns"><div class="column order-2 column-main is-8-tablet is-8-desktop is-8-widescreen"><div class="card"><article class="card-content article" role="article"><div class="article-meta is-size-7 is-uppercase level is-mobile"><div class="level-left"><span class="level-item"><time datetime="2019-10-20T12:37:16.000Z" title="2019/10/20 20:37:16">2019-10-20</time>发表</span><span class="level-item"><time datetime="2023-03-11T17:53:17.749Z" title="2023/3/12 01:53:17">2023-03-12</time>更新</span><span class="level-item"><a class="link-muted" href="/categories/code-rules/">code-rules</a></span><span class="level-item">几秒读完 (大约106个字)</span></div></div><p class="title is-3 is-size-4-mobile"><a class="link-muted" href="/code-rules/db-code-rules.html">数据库篇</a></p><div class="content" id="article"><h3 id="脚本提交">脚本提交</h3>
+<p>统一使用Flyway进行统一的管理<br>
+svn://172.16.30.16:20044/G2G_DS/trunk/WMS/wms_db_script</p>
+<h3 id="Dao操作相关">Dao操作相关</h3>
+<ol>
+<li>
+<p>对数据库表更新/删除操作不能使用ID作为’第一’条件, 如</p>
+<blockquote>
+<p>错误用法</p>
+</blockquote>
+ <figure class="highlight sql"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">update</span> parcel <span class="keyword">set</span> a<span class="operator">=</span>&quot;value&quot; <span class="keyword">where</span> id<span class="operator">=</span><span class="number">123</span></span><br></pre></td></tr></table></figure>
+<blockquote>
+<p>正确用法 应用业务主键作为条件</p>
+</blockquote>
+ <figure class="highlight sql"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">update</span> parcel <span class="keyword">set</span> a<span class="operator">=</span>&quot;value&quot; <span class="keyword">where</span> fpxTrackingNo<span class="operator">=</span>&quot;fpx20190402&quot;</span><br></pre></td></tr></table></figure>
+</li>
+<li>
+<p>数据库查询不允许使用select *, 应使用select a,b,c</p>
+</li>
+</ol>
+</div></article></div><div class="card"><article class="card-content article" role="article"><div class="article-meta is-size-7 is-uppercase level is-mobile"><div class="level-left"><span class="level-item"><time datetime="2019-10-20T12:37:16.000Z" title="2019/10/20 20:37:16">2019-10-20</time>发表</span><span class="level-item"><time datetime="2023-03-11T17:53:17.742Z" title="2023/3/12 01:53:17">2023-03-12</time>更新</span><span class="level-item"><a class="link-muted" href="/categories/code-rules/">code-rules</a></span><span class="level-item">1 分钟读完 (大约188个字)</span></div></div><p class="title is-3 is-size-4-mobile"><a class="link-muted" href="/code-rules/exception-and-log-code-rules.html">异常处理与日志篇</a></p><div class="content" id="article"><h3 id="异常处理">异常处理</h3>
 <blockquote>
 <ol>
 <li>异常处理不需要手动输出日志<br>
@@ -52,26 +72,6 @@
   - 已经做了拦截器全局进行打印</li>
 </ol>
 </blockquote>
-</div></article></div><div class="card"><article class="card-content article" role="article"><div class="article-meta is-size-7 is-uppercase level is-mobile"><div class="level-left"><span class="level-item"><time datetime="2019-10-20T12:37:16.000Z" title="2019/10/20 20:37:16">2019-10-20</time>发表</span><span class="level-item"><time datetime="2023-03-11T17:53:17.749Z" title="2023/3/12 01:53:17">2023-03-12</time>更新</span><span class="level-item"><a class="link-muted" href="/categories/code-rules/">code-rules</a></span><span class="level-item">几秒读完 (大约106个字)</span></div></div><p class="title is-3 is-size-4-mobile"><a class="link-muted" href="/code-rules/db-code-rules.html">数据库篇</a></p><div class="content" id="article"><h3 id="脚本提交">脚本提交</h3>
-<p>统一使用Flyway进行统一的管理<br>
-svn://172.16.30.16:20044/G2G_DS/trunk/WMS/wms_db_script</p>
-<h3 id="Dao操作相关">Dao操作相关</h3>
-<ol>
-<li>
-<p>对数据库表更新/删除操作不能使用ID作为’第一’条件, 如</p>
-<blockquote>
-<p>错误用法</p>
-</blockquote>
- <figure class="highlight sql"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">update</span> parcel <span class="keyword">set</span> a<span class="operator">=</span>&quot;value&quot; <span class="keyword">where</span> id<span class="operator">=</span><span class="number">123</span></span><br></pre></td></tr></table></figure>
-<blockquote>
-<p>正确用法 应用业务主键作为条件</p>
-</blockquote>
- <figure class="highlight sql"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">update</span> parcel <span class="keyword">set</span> a<span class="operator">=</span>&quot;value&quot; <span class="keyword">where</span> fpxTrackingNo<span class="operator">=</span>&quot;fpx20190402&quot;</span><br></pre></td></tr></table></figure>
-</li>
-<li>
-<p>数据库查询不允许使用select *, 应使用select a,b,c</p>
-</li>
-</ol>
 </div></article></div><div class="card"><article class="card-content article" role="article"><div class="article-meta is-size-7 is-uppercase level is-mobile"><div class="level-left"><span class="level-item"><time datetime="2019-10-20T12:37:16.000Z" title="2019/10/20 20:37:16">2019-10-20</time>发表</span><span class="level-item"><time datetime="2023-03-11T17:53:17.754Z" title="2023/3/12 01:53:17">2023-03-12</time>更新</span><span class="level-item"><a class="link-muted" href="/categories/code-rules/">code-rules</a></span><span class="level-item">4 分钟读完 (大约627个字)</span></div></div><p class="title is-3 is-size-4-mobile"><a class="link-muted" href="/code-rules/MQ-code-rules.html">MQ篇</a></p><div class="content" id="article"><h3 id="MQ队列命名规范">MQ队列命名规范</h3>
 <blockquote>
 <ol>
