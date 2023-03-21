@@ -29,21 +29,18 @@
       switchTab();
       window.addEventListener('hashchange', switchTab, false);
   })();
-  </script><!-- hexo injector head_end end --><meta name="generator" content="Hexo 6.3.0"></head><body class="is-2-column"><nav class="navbar navbar-main"><div class="container navbar-container"><div class="navbar-brand justify-content-center"><a class="navbar-item navbar-logo" href="/"><img src="/img/avatar.png" alt="神奇宝贝大师的技术博客" height="28"></a></div><div class="navbar-menu"><div class="navbar-start"><a class="navbar-item" href="/">主页</a><a class="navbar-item" href="/archives">归档</a><a class="navbar-item" href="/categories">分类</a><a class="navbar-item" href="/tags">标签</a><a class="navbar-item" href="/about/about.html">关于</a></div><div class="navbar-end"><a class="navbar-item" target="_blank" rel="noopener" title="Download on GitHub" href="https://heyfl.github.io"><i class="fab fa-github"></i></a><a class="navbar-item search" title="搜索" href="javascript:;"><i class="fas fa-search"></i></a></div></div></div></nav><section class="section"><div class="container"><div class="columns"><div class="column order-2 column-main is-8-tablet is-8-desktop is-8-widescreen"><div class="card"><article class="card-content article" role="article"><div class="article-meta is-size-7 is-uppercase level is-mobile"><div class="level-left"><span class="level-item"><time datetime="2019-10-20T12:37:16.000Z" title="2019/10/20 20:37:16">2019-10-20</time>发表</span><span class="level-item"><time datetime="2023-03-11T17:53:17.757Z" title="2023/3/12 01:53:17">2023-03-12</time>更新</span><span class="level-item"><a class="link-muted" href="/categories/code-rules/">code-rules</a></span><span class="level-item">2 分钟读完 (大约309个字)</span></div></div><p class="title is-3 is-size-4-mobile"><a class="link-muted" href="/code-rules/JUnit-code-rules.html">单元测试篇</a></p><div class="content" id="article"><h3 id="关于测试类的规范-暂定">关于测试类的规范 (暂定)</h3>
-<ol>
-<li>单元测试应该是不依赖于别的单元测试的</li>
-<li>所有单元测试应该都得回滚，如果存在异步处理的情况，应尽可能把主线程与fork线程拆成2个测试类方法进行测试</li>
-<li>每个测试类／测试方法应写上对应的名称@DisplayName</li>
-<li>每个接口，都必须写一个正向测试方法</li>
-<li>关于测试类的类名：测试类与被测试的类的路径需要一致，名字也需要对应，如：</li>
-</ol>
-<figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">com.fpx.wms.service.impl.InstockServiceImpl</span><br><span class="line">↓对应↓</span><br><span class="line">com.fpx.wms.service.impl.InstockServiceImplTest</span><br></pre></td></tr></table></figure>
-<ol start="6">
-<li>关于测试类的方法名： 方法名尽可能为成功的条件如shouldSuccessAfterPay()，而方法具体用来测试哪个场景的，我们已经使用了@ DisplayName来描述，无须担心</li>
-<li>对于结果，需要适应assert断言输出与结果是否一致（这才能算是一个单元测试）</li>
-<li>断言统一使用AssertJ框架，使用Assertions.assertThat()进行处理</li>
-</ol>
-<p>可以参考\gds-parent\gds-wms-parent\gds-wms\src\test\java\com\fpx\gds\wms\service\exceptionhandle\impl在SVN版本为2962时提交的代码为参考</p></div><a class="article-more button is-small is-size-7" href="/code-rules/JUnit-code-rules.html#more">阅读更多</a></article></div><div class="card"><article class="card-content article" role="article"><div class="article-meta is-size-7 is-uppercase level is-mobile"><div class="level-left"><span class="level-item"><time datetime="2019-08-26T10:59:26.000Z" title="2019/8/26 18:59:26">2019-08-26</time>发表</span><span class="level-item"><time datetime="2022-07-04T12:18:25.941Z" title="2022/7/4 20:18:25">2022-07-04</time>更新</span><span class="level-item"><a class="link-muted" href="/categories/database/">database</a></span><span class="level-item">4 分钟读完 (大约672个字)</span></div></div><p class="title is-3 is-size-4-mobile"><a class="link-muted" href="/database/innodb-record-level-locks.html">MySQL锁</a></p><div class="content" id="article"><blockquote>
+  </script><!-- hexo injector head_end end --><meta name="generator" content="Hexo 6.3.0"></head><body class="is-2-column"><nav class="navbar navbar-main"><div class="container navbar-container"><div class="navbar-brand justify-content-center"><a class="navbar-item navbar-logo" href="/"><img src="/img/avatar.png" alt="神奇宝贝大师的技术博客" height="28"></a></div><div class="navbar-menu"><div class="navbar-start"><a class="navbar-item" href="/">主页</a><a class="navbar-item" href="/archives">归档</a><a class="navbar-item" href="/categories">分类</a><a class="navbar-item" href="/tags">标签</a><a class="navbar-item" href="/about/about.html">关于</a></div><div class="navbar-end"><a class="navbar-item" target="_blank" rel="noopener" title="Download on GitHub" href="https://heyfl.github.io"><i class="fab fa-github"></i></a><a class="navbar-item search" title="搜索" href="javascript:;"><i class="fas fa-search"></i></a></div></div></div></nav><section class="section"><div class="container"><div class="columns"><div class="column order-2 column-main is-8-tablet is-8-desktop is-8-widescreen"><div class="card"><article class="card-content article" role="article"><div class="article-meta is-size-7 is-uppercase level is-mobile"><div class="level-left"><span class="level-item"><time datetime="2019-10-20T12:37:16.000Z" title="2019/10/20 20:37:16">2019-10-20</time>发表</span><span class="level-item"><time datetime="2023-03-11T17:53:23.346Z" title="2023/3/12 01:53:23">2023-03-12</time>更新</span><span class="level-item"><a class="link-muted" href="/categories/code-rules/">code-rules</a></span><span class="level-item">几秒读完 (大约71个字)</span></div></div><p class="title is-3 is-size-4-mobile"><a class="link-muted" href="/code-rules/todo-code-rules.html">待办篇</a></p><div class="content" id="article"><h2 id="待办目录">待办目录</h2>
+<ul>
+<li>[X] 基于Junit5的新测试用例规范</li>
+<li>[ ] 基于新测试用例的demo</li>
+<li>[ ] MQ重复消费问题解决</li>
+<li>[X] 根据请求ID追踪调用链所有日志</li>
+</ul>
+<h2 id="系统改造">系统改造</h2>
+<ul>
+<li>[ ] 新建GDS公用工程,存放Wms与Wos公用代码(暂定)</li>
+</ul>
+</div></article></div><div class="card"><article class="card-content article" role="article"><div class="article-meta is-size-7 is-uppercase level is-mobile"><div class="level-left"><span class="level-item"><time datetime="2019-08-26T10:59:26.000Z" title="2019/8/26 18:59:26">2019-08-26</time>发表</span><span class="level-item"><time datetime="2022-07-04T12:18:25.941Z" title="2022/7/4 20:18:25">2022-07-04</time>更新</span><span class="level-item"><a class="link-muted" href="/categories/database/">database</a></span><span class="level-item">4 分钟读完 (大约672个字)</span></div></div><p class="title is-3 is-size-4-mobile"><a class="link-muted" href="/database/innodb-record-level-locks.html">MySQL锁</a></p><div class="content" id="article"><blockquote>
 <p><font size="3" color="red">[原创]</font>个人理解，请批判接受，有误请指正。转载请注明出处: <a href="#">https://heyfl.github.io/database/innodb-record-level-locks.html</a></p>
 </blockquote>
 <blockquote>
