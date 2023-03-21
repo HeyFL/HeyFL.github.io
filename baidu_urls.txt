@@ -19,11 +19,11 @@ https://heyfl.github.io/Bug-Log-Optimization/elasticJob-bug-fix.html
 https://heyfl.github.io/code-rules/Code-Rules.html
 https://heyfl.github.io/code-rules/interface-code-rules.html
 https://heyfl.github.io/code-rules/exception-and-log-code-rules.html
-https://heyfl.github.io/code-rules/MQ-code-rules.html
 https://heyfl.github.io/code-rules/db-code-rules.html
 https://heyfl.github.io/code-rules/MQ-code-rules.html
-https://heyfl.github.io/code-rules/todo-code-rules.html
+https://heyfl.github.io/code-rules/MQ-code-rules.html
 https://heyfl.github.io/code-rules/JUnit-code-rules.html
+https://heyfl.github.io/code-rules/todo-code-rules.html
 https://heyfl.github.io/database/innodb-record-level-locks.html
 https://heyfl.github.io/Spring/Spring-Circular-Dependencies.html
 https://heyfl.github.io/JVM/JVM-Memory-Structure-Stack.html
