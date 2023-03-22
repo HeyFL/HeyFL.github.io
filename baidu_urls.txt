@@ -7,6 +7,7 @@ https://heyfl.gitee.io/Bug-Log-Optimization/thread-pool-use-error.html
 https://heyfl.gitee.io/kafka/kafka-remark.html
 https://heyfl.gitee.io/Bug-Log-Optimization/cache-load-database-crash.html
 https://heyfl.gitee.io/JVM/jvm-gc.html
+https://heyfl.gitee.io/JVM/report-jvm-optimize.html
 https://heyfl.gitee.io/Bug-Log-Optimization/database-skew.html
 https://heyfl.gitee.io/database/careful-when-use-mycat.html
 https://heyfl.gitee.io/database/sub_library_and_sub_table.html
@@ -28,6 +29,7 @@ https://heyfl.gitee.io/code-rules/MQ-code-rules.html
 https://heyfl.gitee.io/code-rules/JUnit-code-rules.html
 https://heyfl.gitee.io/code-rules/todo-code-rules.html
 https://heyfl.gitee.io/database/innodb-record-level-locks.html
+https://heyfl.gitee.io/JVM/JVM-Xmind.html
 https://heyfl.gitee.io/Spring/Spring-Circular-Dependencies.html
 https://heyfl.gitee.io/JVM/JVM-Memory-Structure-Stack.html
 https://heyfl.gitee.io/JVM/JVM-Memory-Structure-Menu.html
