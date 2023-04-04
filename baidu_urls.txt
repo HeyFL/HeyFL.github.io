@@ -28,12 +28,12 @@ https://heyfl.gitee.io/code-rules/interface-code-rules.html
 https://heyfl.gitee.io/code-rules/exception-and-log-code-rules.html
 https://heyfl.gitee.io/code-rules/db-code-rules.html
 https://heyfl.gitee.io/code-rules/MQ-code-rules.html
+https://heyfl.gitee.io/code-rules/JUnit-code-rules.html
 https://heyfl.gitee.io/code-rules/MQ-code-rules.html
 https://heyfl.gitee.io/code-rules/todo-code-rules.html
-https://heyfl.gitee.io/code-rules/JUnit-code-rules.html
 https://heyfl.gitee.io/database/innodb-record-level-locks.html
 https://heyfl.gitee.io/JVM/JVM-Xmind.html
-https://heyfl.gitee.io/Spring/Spring-Circular-Dependencies.html
+https://heyfl.gitee.io/Spring/Spring-whiteboard.html
 https://heyfl.gitee.io/Spring/Spring-Circular-Dependencies.html
 https://heyfl.gitee.io/design/front-end-merge.html
 https://heyfl.gitee.io/JVM/JVM-Memory-Structure-Stack.html
