@@ -38,6 +38,7 @@ https://heyfl.gitee.io/code-rules/JUnit-code-rules.html
 https://heyfl.gitee.io/code-rules/todo-code-rules.html
 https://heyfl.gitee.io/database/innodb-record-level-locks.html
 https://heyfl.gitee.io/JVM/JVM-Xmind.html
+https://heyfl.gitee.io/Spring/Spring-life-cycle.html
 https://heyfl.gitee.io/Spring/Spring-whiteboard.html
 https://heyfl.gitee.io/Spring/Spring-Circular-Dependencies.html
 https://heyfl.gitee.io/design/front-end-merge.html
