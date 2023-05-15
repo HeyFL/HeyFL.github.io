@@ -29,15 +29,15 @@ https://heyfl.gitee.io/design/Weibo-feed-design.html
 https://heyfl.gitee.io/design/Kafka-Delay-Queue.html
 https://heyfl.gitee.io/Spring/Spring-events.html
 https://heyfl.gitee.io/Bug-Log-Optimization/elasticJob-bug-fix.html
-https://heyfl.gitee.io/code-rules/Code-Rules.html
 https://heyfl.gitee.io/code-rules/directory-code-rules.html
+https://heyfl.gitee.io/code-rules/Code-Rules.html
 https://heyfl.gitee.io/code-rules/interface-code-rules.html
 https://heyfl.gitee.io/code-rules/exception-and-log-code-rules.html
 https://heyfl.gitee.io/code-rules/db-code-rules.html
 https://heyfl.gitee.io/code-rules/MQ-code-rules.html
-https://heyfl.gitee.io/code-rules/MQ-code-rules.html
 https://heyfl.gitee.io/code-rules/JUnit-code-rules.html
 https://heyfl.gitee.io/code-rules/todo-code-rules.html
+https://heyfl.gitee.io/code-rules/MQ-code-rules.html
 https://heyfl.gitee.io/database/innodb-record-level-locks.html
 https://heyfl.gitee.io/JVM/JVM-Xmind.html
 https://heyfl.gitee.io/Spring/Spring-life-cycle.html
