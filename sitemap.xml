@@ -2,6 +2,15 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://heyfl.gitee.io/system/how-to-improve-service-availability.html</loc>
+    
+    <lastmod>2023-05-30</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://heyfl.gitee.io/Make-A-Little-Progress-Every-Day/Make-A-Little-Progress-Every-Day.html</loc>
     
     <lastmod>2023-04-04</lastmod>
@@ -371,6 +380,15 @@
   </url>
   
   <url>
+    <loc>https://heyfl.gitee.io/code-rules/interface-code-rules.html</loc>
+    
+    <lastmod>2019-12-14</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://heyfl.gitee.io/code-rules/exception-and-log-code-rules.html</loc>
     
     <lastmod>2019-12-14</lastmod>
@@ -417,15 +435,6 @@
   
   <url>
     <loc>https://heyfl.gitee.io/code-rules/todo-code-rules.html</loc>
-    
-    <lastmod>2019-12-14</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://heyfl.gitee.io/code-rules/interface-code-rules.html</loc>
     
     <lastmod>2019-12-14</lastmod>
     
@@ -556,20 +565,6 @@
   </url>
   
   <url>
-    <loc>https://heyfl.gitee.io/tags/JAVA/</loc>
-    <lastmod>2023-05-30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://heyfl.gitee.io/tags/design/</loc>
-    <lastmod>2023-05-30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
     <loc>https://heyfl.gitee.io/tags/Spring-Cloud/</loc>
     <lastmod>2023-05-30</lastmod>
     <changefreq>weekly</changefreq>
@@ -578,6 +573,13 @@
   
   <url>
     <loc>https://heyfl.gitee.io/tags/Consul/</loc>
+    <lastmod>2023-05-30</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://heyfl.gitee.io/tags/design/</loc>
     <lastmod>2023-05-30</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -598,7 +600,7 @@
   </url>
   
   <url>
-    <loc>https://heyfl.gitee.io/tags/Spring/</loc>
+    <loc>https://heyfl.gitee.io/tags/Kafka/</loc>
     <lastmod>2023-05-30</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -606,6 +608,34 @@
   
   <url>
     <loc>https://heyfl.gitee.io/tags/%E7%9F%A5%E8%AF%86%E7%82%B9%E6%95%B4%E7%90%86/</loc>
+    <lastmod>2023-05-30</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://heyfl.gitee.io/tags/JAVA/</loc>
+    <lastmod>2023-05-30</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://heyfl.gitee.io/tags/MQ/</loc>
+    <lastmod>2023-05-30</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://heyfl.gitee.io/tags/%E6%AF%8F%E5%A4%A9%E8%BF%9B%E6%AD%A5%E4%B8%80%E7%82%B9%E7%82%B9/</loc>
+    <lastmod>2023-05-30</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://heyfl.gitee.io/tags/Spring/</loc>
     <lastmod>2023-05-30</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -633,28 +663,21 @@
   </url>
   
   <url>
-    <loc>https://heyfl.gitee.io/tags/%E6%AF%8F%E5%A4%A9%E8%BF%9B%E6%AD%A5%E4%B8%80%E7%82%B9%E7%82%B9/</loc>
+    <loc>https://heyfl.gitee.io/tags/DATABASE/</loc>
     <lastmod>2023-05-30</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://heyfl.gitee.io/tags/Kafka/</loc>
+    <loc>https://heyfl.gitee.io/tags/LOCK/</loc>
     <lastmod>2023-05-30</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://heyfl.gitee.io/tags/MQ/</loc>
-    <lastmod>2023-05-30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://heyfl.gitee.io/tags/dubbo/</loc>
+    <loc>https://heyfl.gitee.io/tags/MYCAT/</loc>
     <lastmod>2023-05-30</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -710,21 +733,7 @@
   </url>
   
   <url>
-    <loc>https://heyfl.gitee.io/tags/MYCAT/</loc>
-    <lastmod>2023-05-30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://heyfl.gitee.io/tags/DATABASE/</loc>
-    <lastmod>2023-05-30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://heyfl.gitee.io/tags/LOCK/</loc>
+    <loc>https://heyfl.gitee.io/tags/dubbo/</loc>
     <lastmod>2023-05-30</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -745,20 +754,6 @@
   </url>
   
   <url>
-    <loc>https://heyfl.gitee.io/tags/%E5%9F%BA%E7%A1%80/</loc>
-    <lastmod>2023-05-30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://heyfl.gitee.io/tags/%E7%AE%97%E6%B3%95/</loc>
-    <lastmod>2023-05-30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
     <loc>https://heyfl.gitee.io/tags/SYSTEM/</loc>
     <lastmod>2023-05-30</lastmod>
     <changefreq>weekly</changefreq>
@@ -767,6 +762,20 @@
   
   <url>
     <loc>https://heyfl.gitee.io/tags/shell/</loc>
+    <lastmod>2023-05-30</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://heyfl.gitee.io/tags/%E5%9F%BA%E7%A1%80/</loc>
+    <lastmod>2023-05-30</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://heyfl.gitee.io/tags/%E7%AE%97%E6%B3%95/</loc>
     <lastmod>2023-05-30</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -796,14 +805,14 @@
   </url>
   
   <url>
-    <loc>https://heyfl.gitee.io/categories/redis/</loc>
+    <loc>https://heyfl.gitee.io/categories/bookmarks/</loc>
     <lastmod>2023-05-30</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://heyfl.gitee.io/categories/bookmarks/</loc>
+    <loc>https://heyfl.gitee.io/categories/redis/</loc>
     <lastmod>2023-05-30</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -831,6 +840,20 @@
   </url>
   
   <url>
+    <loc>https://heyfl.gitee.io/categories/MQ/</loc>
+    <lastmod>2023-05-30</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://heyfl.gitee.io/categories/Make-A-Little-Progress-Every-Day/</loc>
+    <lastmod>2023-05-30</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
     <loc>https://heyfl.gitee.io/categories/Spring/</loc>
     <lastmod>2023-05-30</lastmod>
     <changefreq>weekly</changefreq>
@@ -845,21 +868,7 @@
   </url>
   
   <url>
-    <loc>https://heyfl.gitee.io/categories/Make-A-Little-Progress-Every-Day/</loc>
-    <lastmod>2023-05-30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://heyfl.gitee.io/categories/MQ/</loc>
-    <lastmod>2023-05-30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://heyfl.gitee.io/categories/dubbo/</loc>
+    <loc>https://heyfl.gitee.io/categories/database/</loc>
     <lastmod>2023-05-30</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -873,7 +882,7 @@
   </url>
   
   <url>
-    <loc>https://heyfl.gitee.io/categories/database/</loc>
+    <loc>https://heyfl.gitee.io/categories/dubbo/</loc>
     <lastmod>2023-05-30</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -887,7 +896,7 @@
   </url>
   
   <url>
-    <loc>https://heyfl.gitee.io/categories/web/</loc>
+    <loc>https://heyfl.gitee.io/categories/system/</loc>
     <lastmod>2023-05-30</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -901,7 +910,7 @@
   </url>
   
   <url>
-    <loc>https://heyfl.gitee.io/categories/system/</loc>
+    <loc>https://heyfl.gitee.io/categories/web/</loc>
     <lastmod>2023-05-30</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
