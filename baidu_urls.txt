@@ -1,4 +1,5 @@
 https://heyfl.gitee.io/system/how-to-improve-service-availability.html
+https://heyfl.gitee.io/redis/Redis-Sentinel-Summary.html
 https://heyfl.gitee.io/design/Hystrix-optimization.html
 https://heyfl.gitee.io/design/hbase-data-compress.html
 https://heyfl.gitee.io/design/hbase-region-data-skew.html
@@ -34,10 +35,10 @@ https://heyfl.gitee.io/code-rules/Code-Rules.html
 https://heyfl.gitee.io/code-rules/directory-code-rules.html
 https://heyfl.gitee.io/code-rules/interface-code-rules.html
 https://heyfl.gitee.io/code-rules/exception-and-log-code-rules.html
+https://heyfl.gitee.io/code-rules/MQ-code-rules.html
 https://heyfl.gitee.io/code-rules/db-code-rules.html
 https://heyfl.gitee.io/code-rules/MQ-code-rules.html
 https://heyfl.gitee.io/code-rules/JUnit-code-rules.html
-https://heyfl.gitee.io/code-rules/MQ-code-rules.html
 https://heyfl.gitee.io/code-rules/todo-code-rules.html
 https://heyfl.gitee.io/database/innodb-record-level-locks.html
 https://heyfl.gitee.io/JVM/JVM-Xmind.html
