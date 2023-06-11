@@ -1,4 +1,5 @@
 https://heyfl.gitee.io/system/how-to-improve-service-availability.html
+https://heyfl.gitee.io/idea/performance-optimization-core-ideas.html
 https://heyfl.gitee.io/redis/Redis-Sentinel-Summary.html
 https://heyfl.gitee.io/design/Hystrix-optimization.html
 https://heyfl.gitee.io/design/hbase-data-compress.html
@@ -55,8 +56,8 @@ https://heyfl.gitee.io/MQ/mq-common-problem.html
 https://heyfl.gitee.io/system/jstack-ding-wei-xian-shang-wen-ti.html
 https://heyfl.gitee.io/Bug-Log-Optimization/bug_in_spring-cloud_instance_registered_with_consul.html
 https://heyfl.gitee.io/Make-A-Little-Progress-Every-Day/Make-A-Little-Progress-Every-Day.html
-https://heyfl.gitee.io/java/sort-algorithm-summary.html
 https://heyfl.gitee.io/java/query-algorithm-summary.html
+https://heyfl.gitee.io/java/sort-algorithm-summary.html
 https://heyfl.gitee.io/java/HashMap-JDK1.8.html
 https://heyfl.gitee.io/redis/Redis-Install-Settring.html
 https://heyfl.gitee.io/bookmarks/bookmarks.html
