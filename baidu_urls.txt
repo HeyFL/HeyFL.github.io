@@ -44,8 +44,8 @@ https://heyfl.gitee.io/code-rules/Code-Rules.html
 https://heyfl.gitee.io/code-rules/directory-code-rules.html
 https://heyfl.gitee.io/code-rules/interface-code-rules.html
 https://heyfl.gitee.io/code-rules/exception-and-log-code-rules.html
-https://heyfl.gitee.io/code-rules/db-code-rules.html
 https://heyfl.gitee.io/code-rules/MQ-code-rules.html
+https://heyfl.gitee.io/code-rules/db-code-rules.html
 https://heyfl.gitee.io/code-rules/MQ-code-rules.html
 https://heyfl.gitee.io/code-rules/JUnit-code-rules.html
 https://heyfl.gitee.io/code-rules/todo-code-rules.html
