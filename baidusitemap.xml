@@ -1,8 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://heyfl.gitee.io/design/sf-redis-sentinel-design.html</loc>
-    <lastmod>2023-06-13</lastmod>
+    <loc>https://heyfl.gitee.io/design/general-kafka-delay-queue.html</loc>
+    <lastmod>2023-06-15</lastmod>
+  </url>
+  <url>
+    <loc>https://heyfl.gitee.io/design/Kafka-Delay-Queue.html</loc>
+    <lastmod>2023-06-15</lastmod>
   </url>
   <url>
     <loc>https://heyfl.gitee.io/idea/performance-optimization-core-ideas.html</loc>
@@ -15,6 +19,14 @@
   <url>
     <loc>https://heyfl.gitee.io/redis/Redis-Partitioning.html</loc>
     <lastmod>2023-06-09</lastmod>
+  </url>
+  <url>
+    <loc>https://heyfl.gitee.io/design/sf-redis-sentinel-design.html</loc>
+    <lastmod>2023-06-08</lastmod>
+  </url>
+  <url>
+    <loc>https://heyfl.gitee.io/design/same-data-push.html</loc>
+    <lastmod>2023-06-05</lastmod>
   </url>
   <url>
     <loc>https://heyfl.gitee.io/system/how-to-improve-service-availability.html</loc>
@@ -35,14 +47,6 @@
   <url>
     <loc>https://heyfl.gitee.io/Spring/Spring-whiteboard.html</loc>
     <lastmod>2023-04-04</lastmod>
-  </url>
-  <url>
-    <loc>https://heyfl.gitee.io/design/Kafka-Delay-Queue.html</loc>
-    <lastmod>2023-03-21</lastmod>
-  </url>
-  <url>
-    <loc>https://heyfl.gitee.io/design/general-kafka-delay-queue.html</loc>
-    <lastmod>2023-03-21</lastmod>
   </url>
   <url>
     <loc>https://heyfl.gitee.io/bookmarks/bookmarks.html</loc>

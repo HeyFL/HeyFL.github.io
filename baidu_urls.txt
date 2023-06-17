@@ -1,4 +1,5 @@
 https://heyfl.gitee.io/design/sf-redis-sentinel-design.html
+https://heyfl.gitee.io/design/same-data-push.html
 https://heyfl.gitee.io/system/how-to-improve-service-availability.html
 https://heyfl.gitee.io/idea/performance-optimization-core-ideas.html
 https://heyfl.gitee.io/redis/Redis-Sentinel-Summary.html
