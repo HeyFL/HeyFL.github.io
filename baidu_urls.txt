@@ -44,8 +44,8 @@ https://heyfl.gitee.io/%E9%83%A8%E7%BD%B2/docker/redis/redis-cluster-with-docker
 https://heyfl.gitee.io/%E9%83%A8%E7%BD%B2/docker/undefined.html
 https://heyfl.gitee.io/code-rules/Code-Rules.html
 https://heyfl.gitee.io/code-rules/directory-code-rules.html
-https://heyfl.gitee.io/code-rules/interface-code-rules.html
 https://heyfl.gitee.io/code-rules/exception-and-log-code-rules.html
+https://heyfl.gitee.io/code-rules/interface-code-rules.html
 https://heyfl.gitee.io/code-rules/db-code-rules.html
 https://heyfl.gitee.io/code-rules/MQ-code-rules.html
 https://heyfl.gitee.io/code-rules/MQ-code-rules.html
