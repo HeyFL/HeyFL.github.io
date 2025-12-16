@@ -1,0 +1,1136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  
+  <url>
+    <loc>https://heyfl.gitee.io/Make-A-Little-Progress-Every-Day/Make-A-Little-Progress-Every-Day-English.html</loc>
+    
+    <lastmod>2025-12-16</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://heyfl.gitee.io/Make-A-Little-Progress-Every-Day/Make-A-Little-Progress-Every-Day-Basic-Technology.html</loc>
+    
+    <lastmod>2025-12-16</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://heyfl.gitee.io/Spring/Spring-whiteboard.html</loc>
+    
+    <lastmod>2025-12-16</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://heyfl.gitee.io/redis/Redis-Partitioning.html</loc>
+    
+    <lastmod>2025-12-16</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://heyfl.gitee.io/design/general-kafka-delay-queue.html</loc>
+    
+    <lastmod>2025-12-16</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://heyfl.gitee.io/web-view.html</loc>
+    
+    <lastmod>2025-12-15</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://heyfl.gitee.io/system/how-to-improve-service-availability.html</loc>
+    
+    <lastmod>2025-12-15</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://heyfl.gitee.io/redis/Different-Between-Sentinel-And-Cluster.html</loc>
+    
+    <lastmod>2025-12-15</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://heyfl.gitee.io/redis/Redis-Install-Settring.html</loc>
+    
+    <lastmod>2025-12-15</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://heyfl.gitee.io/idea/performance-optimization-core-ideas.html</loc>
+    
+    <lastmod>2025-12-15</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://heyfl.gitee.io/design/precise-timing-task-design.html</loc>
+    
+    <lastmod>2025-12-15</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://heyfl.gitee.io/design/Kafka-Delay-Queue.html</loc>
+    
+    <lastmod>2025-12-15</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://heyfl.gitee.io/Spring/Spring-Circular-Dependencies.html</loc>
+    
+    <lastmod>2025-12-15</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://heyfl.gitee.io/SA/Study/Alipay-Payment-Process-Analysis.html</loc>
+    
+    <lastmod>2025-12-10</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://heyfl.gitee.io/design/same-data-push.html</loc>
+    
+    <lastmod>2023-06-05</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://heyfl.gitee.io/design/cache-consistency-solution.html</loc>
+    
+    <lastmod>2023-05-10</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://heyfl.gitee.io/dubbo/dubbo-call-flow.html</loc>
+    
+    <lastmod>2023-04-11</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://heyfl.gitee.io/redis/Redis-Sentinel-Summary.html</loc>
+    
+    <lastmod>2022-12-10</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://heyfl.gitee.io/design/sf-redis-sentinel-design.html</loc>
+    
+    <lastmod>2022-12-10</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://heyfl.gitee.io/MQ/mq-common-problem.html</loc>
+    
+    <lastmod>2022-11-09</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://heyfl.gitee.io/Bug-Log-Optimization/thread-pool-use-error.html</loc>
+    
+    <lastmod>2022-11-04</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://heyfl.gitee.io/SA/Solution/Production-Issue-ThreadPool-Misconfiguration.html</loc>
+    
+    <lastmod>2022-11-04</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://heyfl.gitee.io/web/Reduce-half-of-the-cross-domain-requests.html</loc>
+    
+    <lastmod>2022-09-20</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://heyfl.gitee.io/design/Hystrix-optimization.html</loc>
+    
+    <lastmod>2022-09-13</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://heyfl.gitee.io/design/hbase-data-compress.html</loc>
+    
+    <lastmod>2022-09-12</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://heyfl.gitee.io/design/hbase-region-data-skew.html</loc>
+    
+    <lastmod>2022-08-22</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://heyfl.gitee.io/design/business-optimization.html</loc>
+    
+    <lastmod>2022-08-12</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://heyfl.gitee.io/design/zero-copy-file-download.html</loc>
+    
+    <lastmod>2022-08-10</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://heyfl.gitee.io/database/sub_library_and_sub_table.html</loc>
+    
+    <lastmod>2022-05-07</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://heyfl.gitee.io/database/careful-when-use-mycat.html</loc>
+    
+    <lastmod>2022-05-07</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://heyfl.gitee.io/Spring/Spring-life-cycle.html</loc>
+    
+    <lastmod>2022-03-20</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://heyfl.gitee.io/MQ/kafka-remark.html</loc>
+    
+    <lastmod>2022-03-14</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://heyfl.gitee.io/Bug-Log-Optimization/cache-load-database-crash.html</loc>
+    
+    <lastmod>2022-01-05</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://heyfl.gitee.io/system/IO-model2.html</loc>
+    
+    <lastmod>2021-12-25</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://heyfl.gitee.io/Bug-Log-Optimization/bug_in_spring-cloud_instance_registered_with_consul.html</loc>
+    
+    <lastmod>2021-12-10</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://heyfl.gitee.io/system/IO-model.html</loc>
+    
+    <lastmod>2021-12-10</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://heyfl.gitee.io/system/system-graceful-shutdown.html</loc>
+    
+    <lastmod>2021-12-10</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://heyfl.gitee.io/JVM/report-jvm-optimize.html</loc>
+    
+    <lastmod>2021-09-05</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://heyfl.gitee.io/MQ/mq-kafka.html</loc>
+    
+    <lastmod>2021-08-19</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://heyfl.gitee.io/design/snappy-compress-redis.html</loc>
+    
+    <lastmod>2021-08-13</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://heyfl.gitee.io/JVM/jvm-gc.html</loc>
+    
+    <lastmod>2021-08-11</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://heyfl.gitee.io/design/database-scale.html</loc>
+    
+    <lastmod>2021-08-10</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://heyfl.gitee.io/MQ/mq-rabbitmq.html</loc>
+    
+    <lastmod>2021-08-09</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://heyfl.gitee.io/design/Weibo-feed-design.html</loc>
+    
+    <lastmod>2021-07-02</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://heyfl.gitee.io/%E9%83%A8%E7%BD%B2/docker/redis/redis-Sentinel-with-docker.html</loc>
+    
+    <lastmod>2021-06-08</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://heyfl.gitee.io/%E9%83%A8%E7%BD%B2/docker/redis/redis-cluster-with-docker.html</loc>
+    
+    <lastmod>2021-06-08</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://heyfl.gitee.io/%E9%83%A8%E7%BD%B2/docker/zookeeper/zookeeper-cluster-with-docker.html</loc>
+    
+    <lastmod>2021-06-08</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://heyfl.gitee.io/%E9%83%A8%E7%BD%B2/docker/zookeeper/zookeeper-cluster-with-docker.html</loc>
+    
+    <lastmod>2021-06-08</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://heyfl.gitee.io/Bug-Log-Optimization/database-skew.html</loc>
+    
+    <lastmod>2021-05-04</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://heyfl.gitee.io/design/Redis-compress-design.html</loc>
+    
+    <lastmod>2021-03-20</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://heyfl.gitee.io/design/ES-Query-Optimization.html</loc>
+    
+    <lastmod>2021-03-10</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://heyfl.gitee.io/framework-design/sec-kill-framework-design.html</loc>
+    
+    <lastmod>2020-10-14</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://heyfl.gitee.io/design/es-structure-optimization.html</loc>
+    
+    <lastmod>2020-03-10</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://heyfl.gitee.io/Bug-Log-Optimization/elasticJob-bug-fix.html</loc>
+    
+    <lastmod>2019-12-14</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://heyfl.gitee.io/code-rules/Code-Rules.html</loc>
+    
+    <lastmod>2019-12-14</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://heyfl.gitee.io/code-rules/directory-code-rules.html</loc>
+    
+    <lastmod>2019-12-14</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://heyfl.gitee.io/code-rules/db-code-rules.html</loc>
+    
+    <lastmod>2019-12-14</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://heyfl.gitee.io/code-rules/interface-code-rules.html</loc>
+    
+    <lastmod>2019-12-14</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://heyfl.gitee.io/code-rules/exception-and-log-code-rules.html</loc>
+    
+    <lastmod>2019-12-14</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://heyfl.gitee.io/code-rules/MQ-code-rules.html</loc>
+    
+    <lastmod>2019-12-14</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://heyfl.gitee.io/code-rules/JUnit-code-rules.html</loc>
+    
+    <lastmod>2019-12-14</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://heyfl.gitee.io/code-rules/MQ-code-rules.html</loc>
+    
+    <lastmod>2019-12-14</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://heyfl.gitee.io/code-rules/todo-code-rules.html</loc>
+    
+    <lastmod>2019-12-14</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://heyfl.gitee.io/Spring/Spring-events.html</loc>
+    
+    <lastmod>2019-12-11</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://heyfl.gitee.io/JVM/JVM-Xmind.html</loc>
+    
+    <lastmod>2019-10-14</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://heyfl.gitee.io/database/innodb-record-level-locks.html</loc>
+    
+    <lastmod>2019-08-26</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://heyfl.gitee.io/design/front-end-merge.html</loc>
+    
+    <lastmod>2019-08-10</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://heyfl.gitee.io/Distributed/How-To-Use-Distributed-Transaction.html</loc>
+    
+    <lastmod>2019-03-14</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://heyfl.gitee.io/JVM/JVM-Memory-Structure-Stack.html</loc>
+    
+    <lastmod>2019-02-20</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://heyfl.gitee.io/JVM/JVM-Memory-Structure-Menu.html</loc>
+    
+    <lastmod>2019-02-18</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://heyfl.gitee.io/system/jstack-ding-wei-xian-shang-wen-ti.html</loc>
+    
+    <lastmod>2018-12-10</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://heyfl.gitee.io/java/sort-algorithm-summary.html</loc>
+    
+    <lastmod>2018-04-24</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://heyfl.gitee.io/java/query-algorithm-summary.html</loc>
+    
+    <lastmod>2018-04-22</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://heyfl.gitee.io/java/HashMap-JDK1.8.html</loc>
+    
+    <lastmod>2017-04-19</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+
+  <url>
+    <loc>https://heyfl.gitee.io/</loc>
+    <lastmod>2025-12-16</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>1.0</priority>
+  </url>
+
+  
+  <url>
+    <loc>https://heyfl.gitee.io/tags/BUG/</loc>
+    <lastmod>2025-12-16</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://heyfl.gitee.io/tags/%E4%BC%98%E5%8C%96/</loc>
+    <lastmod>2025-12-16</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://heyfl.gitee.io/tags/%E6%9E%B6%E6%9E%84%E8%AE%BE%E8%AE%A1/</loc>
+    <lastmod>2025-12-16</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://heyfl.gitee.io/tags/JAVA/</loc>
+    <lastmod>2025-12-16</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://heyfl.gitee.io/tags/Spring-Cloud/</loc>
+    <lastmod>2025-12-16</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://heyfl.gitee.io/tags/Consul/</loc>
+    <lastmod>2025-12-16</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://heyfl.gitee.io/tags/MYSQL/</loc>
+    <lastmod>2025-12-16</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://heyfl.gitee.io/tags/%E6%AF%8F%E5%A4%A9%E8%BF%9B%E6%AD%A5%E4%B8%80%E7%82%B9%E7%82%B9/</loc>
+    <lastmod>2025-12-16</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://heyfl.gitee.io/tags/%E7%9F%A5%E8%AF%86%E7%82%B9%E6%95%B4%E7%90%86/</loc>
+    <lastmod>2025-12-16</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://heyfl.gitee.io/tags/Spring/</loc>
+    <lastmod>2025-12-16</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://heyfl.gitee.io/tags/%E7%99%BD%E6%9D%BF/</loc>
+    <lastmod>2025-12-16</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://heyfl.gitee.io/tags/Mybatis/</loc>
+    <lastmod>2025-12-16</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://heyfl.gitee.io/tags/%E5%88%86%E5%B8%83%E5%BC%8F/</loc>
+    <lastmod>2025-12-16</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://heyfl.gitee.io/tags/Kafka/</loc>
+    <lastmod>2025-12-16</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://heyfl.gitee.io/tags/MQ/</loc>
+    <lastmod>2025-12-16</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://heyfl.gitee.io/tags/DATABASE/</loc>
+    <lastmod>2025-12-16</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://heyfl.gitee.io/tags/LOCK/</loc>
+    <lastmod>2025-12-16</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://heyfl.gitee.io/tags/MYCAT/</loc>
+    <lastmod>2025-12-16</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://heyfl.gitee.io/tags/ElasticSearch/</loc>
+    <lastmod>2025-12-16</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://heyfl.gitee.io/tags/Hbase/</loc>
+    <lastmod>2025-12-16</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://heyfl.gitee.io/tags/KAFKA/</loc>
+    <lastmod>2025-12-16</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://heyfl.gitee.io/tags/Hystrix/</loc>
+    <lastmod>2025-12-16</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://heyfl.gitee.io/tags/REDIS/</loc>
+    <lastmod>2025-12-16</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://heyfl.gitee.io/tags/redis/</loc>
+    <lastmod>2025-12-16</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://heyfl.gitee.io/tags/%E9%AB%98%E5%B9%B6%E5%8F%91/</loc>
+    <lastmod>2025-12-16</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://heyfl.gitee.io/tags/%E8%AF%BB%E5%90%8E%E6%84%9F/</loc>
+    <lastmod>2025-12-16</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://heyfl.gitee.io/tags/Code-Rule/</loc>
+    <lastmod>2025-12-16</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://heyfl.gitee.io/tags/%E9%83%A8%E7%BD%B2/</loc>
+    <lastmod>2025-12-16</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://heyfl.gitee.io/tags/docker/</loc>
+    <lastmod>2025-12-16</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://heyfl.gitee.io/tags/zookeeper/</loc>
+    <lastmod>2025-12-16</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://heyfl.gitee.io/tags/dubbo/</loc>
+    <lastmod>2025-12-16</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://heyfl.gitee.io/tags/%E5%9F%BA%E7%A1%80/</loc>
+    <lastmod>2025-12-16</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://heyfl.gitee.io/tags/idea/</loc>
+    <lastmod>2025-12-16</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://heyfl.gitee.io/tags/%E7%AE%97%E6%B3%95/</loc>
+    <lastmod>2025-12-16</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://heyfl.gitee.io/tags/SYSTEM/</loc>
+    <lastmod>2025-12-16</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://heyfl.gitee.io/tags/redis%E9%9B%86%E7%BE%A4/</loc>
+    <lastmod>2025-12-16</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://heyfl.gitee.io/tags/shell/</loc>
+    <lastmod>2025-12-16</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://heyfl.gitee.io/tags/Analysis/</loc>
+    <lastmod>2025-12-16</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://heyfl.gitee.io/tags/JVM/</loc>
+    <lastmod>2025-12-16</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://heyfl.gitee.io/tags/JVM%E5%86%85%E5%AD%98%E7%BB%93%E6%9E%84/</loc>
+    <lastmod>2025-12-16</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+
+  
+  <url>
+    <loc>https://heyfl.gitee.io/categories/about/</loc>
+    <lastmod>2025-12-16</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://heyfl.gitee.io/categories/bookmarks/</loc>
+    <lastmod>2025-12-16</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://heyfl.gitee.io/categories/%E9%83%A8%E7%BD%B2/</loc>
+    <lastmod>2025-12-16</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://heyfl.gitee.io/categories/%E9%83%A8%E7%BD%B2/docker/</loc>
+    <lastmod>2025-12-16</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://heyfl.gitee.io/categories/%E9%83%A8%E7%BD%B2/docker/zookeeper/</loc>
+    <lastmod>2025-12-16</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://heyfl.gitee.io/categories/%E9%83%A8%E7%BD%B2/docker/redis/</loc>
+    <lastmod>2025-12-16</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://heyfl.gitee.io/categories/redis/</loc>
+    <lastmod>2025-12-16</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://heyfl.gitee.io/categories/JVM/</loc>
+    <lastmod>2025-12-16</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://heyfl.gitee.io/categories/Bug-Log-Optimization/</loc>
+    <lastmod>2025-12-16</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://heyfl.gitee.io/categories/Make-A-Little-Progress-Every-Day/</loc>
+    <lastmod>2025-12-16</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://heyfl.gitee.io/categories/Spring/</loc>
+    <lastmod>2025-12-16</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://heyfl.gitee.io/categories/Distributed/</loc>
+    <lastmod>2025-12-16</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://heyfl.gitee.io/categories/MQ/</loc>
+    <lastmod>2025-12-16</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://heyfl.gitee.io/categories/database/</loc>
+    <lastmod>2025-12-16</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://heyfl.gitee.io/categories/design/</loc>
+    <lastmod>2025-12-16</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://heyfl.gitee.io/categories/code-rules/</loc>
+    <lastmod>2025-12-16</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://heyfl.gitee.io/categories/dubbo/</loc>
+    <lastmod>2025-12-16</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://heyfl.gitee.io/categories/framework-design/</loc>
+    <lastmod>2025-12-16</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://heyfl.gitee.io/categories/java/</loc>
+    <lastmod>2025-12-16</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://heyfl.gitee.io/categories/system/</loc>
+    <lastmod>2025-12-16</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://heyfl.gitee.io/categories/idea/</loc>
+    <lastmod>2025-12-16</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://heyfl.gitee.io/categories/web/</loc>
+    <lastmod>2025-12-16</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://heyfl.gitee.io/categories/SA/</loc>
+    <lastmod>2025-12-16</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://heyfl.gitee.io/categories/SA/Solution/</loc>
+    <lastmod>2025-12-16</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://heyfl.gitee.io/categories/SA/Study/</loc>
+    <lastmod>2025-12-16</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+</urlset>

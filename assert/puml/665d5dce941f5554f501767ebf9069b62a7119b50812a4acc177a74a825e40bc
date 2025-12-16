@@ -1,0 +1,96 @@
+@startuml
+
+skinparam ParticipantPadding 20
+skinparam BoxPadding 10
+autonumber
+
+title 支付宝支付流程深度解析：P2P转账与ToB消费 (基于网联协议)
+
+actor "用户 (User)" as User
+participant "商户系统\n(仅ToB场景)" as Merchant
+participant "支付宝客户端\n(Alipay App)" as App
+participant "支付宝云网关\n(MGS)" as Gateway
+
+box "支付宝核心平台 (Alipay Core)" #AliceBlue
+    participant "交易核心\n(Trade Core)" as Trade
+    participant "智能风控\n(AlphaRisk)" as Risk
+    participant "营销中心\n(Promo Center)" as Promo
+    participant "支付核心\n(Payment Core)" as Pay
+    participant "账务/清算核心\n(Accounting)" as Acct
+end box
+
+participant "网联清算平台\n(NUCC)" as NUCC
+participant "发卡行核心系统\n(Issuer Bank)" as Bank
+
+== 阶段一：交易发起 (P2P vs ToB) ==
+alt P2P转账场景
+    User -> App: 点击转账，输入金额与收款人
+    App -> Gateway: 发起创建交易请求
+    Gateway -> Trade: 创建交易单 (State: INIT)
+else ToB消费场景
+    User -> Merchant: 提交订单
+    Merchant -> Merchant: RSA签名订单参数
+    Merchant -> App: 唤起收银台SDK
+    App -> Gateway: 预下单请求
+    Gateway -> Trade: 验签 & 创建交易单
+end
+
+== 阶段二：风控与营销 ==
+Trade -> Risk: 发送风控扫描请求 (设备指纹, 行为数据)
+Risk --> Trade: 返回风控评估结果 (Pass/Challenge)
+alt ToB场景: 营销计算
+    Trade -> Promo: 计算红包/优惠券
+    Promo --> Trade: 锁定优惠资源 (如: -10元)
+end
+Trade --> App: 返回收银台渲染参数
+
+== 阶段三：支付指令构建 ==
+User -> App: 确认支付 (密码/生物识别)
+App -> Gateway: 提交支付加密包
+Gateway -> Pay: 路由分发
+Pay -> Pay: 幂等性检查 & 渠道路由 (Route to NUCC)
+
+== 阶段四：网联协议支付 (关键路径) ==
+Pay -> NUCC: 发送协议支付请求 (ISO 8583/XML)\n
+note right of Pay: 报文使用国密SM2签名，SM4加密
+NUCC -> Bank: 转发扣款指令
+
+activate Bank
+    Bank -> Bank: 校验协议号(Token)
+    Bank -> Bank: 检查余额 & 风控
+    Bank -> Bank: **核心记账**\n借: 用户存款\n贷: 支付宝备付金(待清算)
+    Bank --> NUCC: 返回成功报文 (Resp: 00)
+deactivate Bank
+
+NUCC --> Pay: 转发扣款成功通知
+
+== 阶段五：内部一致性处理 ==
+Pay -> Acct: 发送入账指令 (TCC Confirm)
+activate Acct
+    Acct -> Acct: **复式记账**
+    note right of Acct
+        借: 应收网联款项 (Asset)
+        贷: 中间户/用户余额 (Liability)
+    end note
+    Acct --> Pay: 入账成功
+deactivate Acct
+
+== 阶段六：状态同步与响应 ==
+Pay -> Trade: 更新交易状态 (SUCCESS)
+par 并行通知
+    Trade -> App: 推送支付成功页
+    App -> User: 展示"支付成功"
+    
+    else ToB场景: 异步通知
+    Trade -> Merchant: HTTP POST (NotifyURL)
+    Merchant -> Merchant: 验签 & 发货
+    Merchant --> Trade: return "success"
+end
+
+== 阶段七：日终清算 (T+1) ==
+Bank -> NUCC: 上送全天交易明细
+NUCC -> NUCC: 多方对账 & 轧差
+NUCC -> Pay: 发送对账文件
+Pay -> Pay: 自动对账 (Reconciliation)
+
+@enduml
