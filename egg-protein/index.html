@@ -1,0 +1,123 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="theme-color" content="#f7f6f1">
+<meta name="description" content="蛋白质与鸡蛋摄入计算器：按体重、活动量及三餐摄入量，估算每日蛋白质需求，规划鸡蛋和蛋白的补充。">
+<title>蛋白质与鸡蛋摄入计算器 · Egg Lab</title>
+<style>
+:root{--ink:#132b2a;--muted:#61726d;--paper:#f7f6f1;--card:#ffffff;--line:#e4e7df;--green:#1d594d;--mint:#e2f0e8;--gold:#f3ba5c;--orange:#ec903e;--r:22px}
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:var(--paper);color:var(--ink);font-family:-apple-system,BlinkMacSystemFont,"PingFang SC","Microsoft Yahei","Noto Sans CJK SC",Arial,sans-serif;line-height:1.6}
+button,input{font:inherit}button{cursor:pointer}a{color:var(--green)}a:hover{text-decoration-thickness:2px}
+.wrap{max-width:1140px;margin:auto;padding:0 28px}header{border-bottom:1px solid var(--line);background:rgba(247,246,241,.94)}
+header .wrap{height:74px;display:flex;align-items:center;justify-content:space-between}.brand{display:flex;align-items:center;gap:12px;text-decoration:none;color:var(--ink);font-weight:850;letter-spacing:-.5px;font-size:20px}
+.brand-mark{width:40px;height:40px;border-radius:13px;background:var(--green);display:grid;place-items:center;color:#fff}
+.brand-mark svg{width:24px;height:24px}.nav{display:flex;align-items:center;gap:25px}.nav a{text-decoration:none;color:var(--muted);font-size:13px;font-weight:650}.nav a:hover{color:var(--green)}
+.hero{padding:78px 0 58px;display:grid;grid-template-columns:1.35fr .65fr;gap:35px;align-items:center}
+.eyebrow{display:inline-flex;align-items:center;gap:9px;color:#236454;background:#e4eee7;border:1px solid #d5e5da;padding:7px 13px;border-radius:999px;font-size:12px;font-weight:800;letter-spacing:1px}
+.hero h1{font-size:clamp(37px,5vw,64px);line-height:1.19;letter-spacing:-2.8px;max-width:740px;margin:25px 0 18px;font-weight:850}.hero h1 em{font-style:normal;color:#b46c22;white-space:nowrap}
+.hero p{max-width:660px;margin:0;color:var(--muted);font-size:17px}.hero-tags{display:flex;flex-wrap:wrap;gap:9px;margin-top:24px}.hero-tags span{font-size:12px;background:#fff;border:1px solid var(--line);border-radius:999px;padding:7px 11px;color:#547069}
+.hero-illus{position:relative;height:250px;display:grid;place-items:center}
+.egg-wrap{height:207px;width:178px;border-radius:52% 52% 49% 49% / 61% 61% 42% 42%;background:linear-gradient(128deg,#fffdf7 8%,#f8e7c6 70%,#d7bc91);transform:rotate(-14deg);box-shadow:20px 21px 0 #e8e5d9,34px 44px 60px #cecec2;position:relative}
+.egg-wrap:after{content:"";height:74px;width:45px;position:absolute;top:29px;left:34px;border-radius:50%;transform:rotate(-16deg);background:rgba(255,255,255,.72);filter:blur(13px)}.floating{position:absolute;background:#fff;border:1px solid var(--line);box-shadow:0 12px 30px rgba(22,55,43,.09);border-radius:13px;padding:10px 14px;font-weight:800;font-size:14px}.float1{left:10px;bottom:24px;transform:rotate(-6deg)}.float2{right:8px;top:13px;transform:rotate(7deg)}.float1 b,.float2 b{color:var(--green)}
+.section-heading{display:flex;justify-content:space-between;align-items:end;gap:18px;margin:6px 0 23px}.section-heading h2{font-size:30px;letter-spacing:-1px;line-height:1.3;margin:0}.section-heading p{color:var(--muted);margin:7px 0 0;font-size:14px}
+.calculator{display:grid;grid-template-columns:1fr 1fr;gap:18px;align-items:stretch}
+.panel{background:var(--card);border:1px solid var(--line);border-radius:var(--r);padding:29px;box-shadow:0 10px 30px rgba(25,48,38,.025)}
+.panel h3{margin:0 0 22px;font-size:19px;letter-spacing:-.4px}.field{margin-bottom:28px}.field:last-child{margin-bottom:0}.field-label{display:flex;justify-content:space-between;align-items:center;gap:14px;font-weight:760;font-size:14px;margin-bottom:12px}.hint{font-size:12px;color:var(--muted);font-weight:400}
+.number-unit{display:flex;align-items:center;gap:6px}.number-unit input{width:80px;border:1px solid #cfddd4;border-radius:10px;background:#f8faf8;text-align:right;padding:6px 9px;color:var(--green);font-weight:850}.number-unit small{color:#708079;font-size:12px}
+input[type=range]{width:100%;height:7px;appearance:none;background:#e4ebe6;border-radius:100px;outline:none;accent-color:var(--green)}
+input[type=range]::-webkit-slider-thumb{appearance:none;width:20px;height:20px;border-radius:50%;background:var(--green);border:4px solid #fff;box-shadow:0 0 0 2px var(--green);cursor:pointer}
+.range-labels{display:flex;justify-content:space-between;font-size:11px;color:#90a098;margin-top:6px}
+.choices{display:grid;grid-template-columns:1fr 1fr;gap:10px}
+.choice{border:1.5px solid var(--line);border-radius:13px;background:#fff;text-align:left;padding:14px 13px;color:var(--ink);transition:.15s}.choice strong{display:block;font-size:13px}.choice small{display:block;color:var(--muted);font-size:11px;margin-top:4px;line-height:1.5}
+.choice[aria-pressed=true]{border-color:var(--green);background:#eaf4ed;box-shadow:inset 0 0 0 1px var(--green)}
+.small-note{color:var(--muted);font-size:12px;margin-top:10px;line-height:1.65}
+.result{background:#183e35;color:#fff;border-radius:var(--r);padding:31px;min-height:100%;position:relative;overflow:hidden}
+.result:after{content:"";position:absolute;width:260px;height:260px;top:-140px;right:-90px;background:radial-gradient(circle,rgba(124,194,153,.18),transparent 70%);pointer-events:none}
+.result-label{font-size:13px;color:#bddecf;font-weight:700}.target{font-size:clamp(48px,5.7vw,70px);font-weight:850;line-height:1.13;letter-spacing:-3px;margin-top:13px;font-variant-numeric:tabular-nums}.target small{font-size:24px;letter-spacing:0;color:#b2d8c4}
+.target-sub{font-size:13px;color:#b1cfc1;margin-top:10px}.rule{height:1px;background:#42685b;margin:25px 0}
+.visual{display:flex;align-items:center;gap:23px}.dial{height:146px;width:146px;flex:0 0 146px;border-radius:50%;background:conic-gradient(#dff4df var(--pct,0%),#37675b 0%);display:grid;place-items:center;transition:background .25s}
+.dial-core{height:113px;width:113px;border-radius:50%;background:#183e35;display:flex;flex-direction:column;align-items:center;justify-content:center}.dial-core strong{font-size:30px;letter-spacing:-1px;line-height:1.1}.dial-core span{color:#bbd7c9;font-size:11px}
+.visual-copy strong{display:block;font-size:23px;font-variant-numeric:tabular-nums}.visual-copy p{color:#b8d8c8;margin:3px 0 0;font-size:13px}.result-note{border:1px solid #4f796a;background:#244f43;border-radius:14px;padding:14px 17px;margin-top:24px;color:#e2f3e9;font-size:13px;line-height:1.7}
+.plan{margin-top:20px;background:#fff;border:1px solid var(--line);border-radius:var(--r);padding:29px;display:grid;grid-template-columns:.88fr 1.12fr;gap:24px}
+.plan h3{margin:0 0 7px;font-size:19px}.plan-desc{color:var(--muted);font-size:13px;margin:0 0 20px}.stepper{display:flex;align-items:center;justify-content:space-between;gap:10px;padding:12px 0;border-bottom:1px solid var(--line)}.stepper:last-child{border-bottom:0}.stepper .step-label{font-size:14px;font-weight:720}.stepper .step-label small{display:block;font-size:11px;font-weight:400;color:var(--muted)}.step-btns{display:flex;align-items:center;gap:13px}.step-btns button{width:32px;height:32px;border-radius:9px;border:1px solid #cfe0d5;background:#f3f7f3;color:var(--green);font-weight:800;font-size:20px;line-height:1}.step-btns button:disabled{opacity:.35;cursor:not-allowed}.step-btns output{font-variant-numeric:tabular-nums;font-size:18px;font-weight:850;min-width:18px;text-align:center}
+.summary-card{background:#f2f6ef;border:1px solid #e1eadf;border-radius:17px;padding:24px;display:flex;flex-direction:column;justify-content:center}
+.summary-top{font-size:13px;color:#577168;font-weight:750}.summary-num{font-size:39px;line-height:1.35;font-weight:850;letter-spacing:-1.5px;color:var(--green);font-variant-numeric:tabular-nums}.summary-num small{font-size:18px;letter-spacing:0}.progress{height:11px;border-radius:50px;background:#d6e4d7;overflow:hidden;margin:13px 0 12px}.progress span{display:block;background:linear-gradient(90deg,#69a684,#1d594d);height:100%;width:0;transition:width .2s}.summary-card p{font-size:13px;color:#53675e;margin:3px 0}.buttons{display:flex;gap:10px;flex-wrap:wrap;margin-top:17px}.btn{border:0;border-radius:11px;background:var(--green);color:white;font-size:13px;font-weight:750;padding:11px 15px}.btn.ghost{background:white;border:1px solid #d0ded1;color:var(--green)}.toast{min-height:20px;margin-top:7px;font-size:12px;color:#31775e}
+.stat-section{padding:78px 0 6px}.stats{display:grid;grid-template-columns:repeat(3,1fr);gap:16px}.stat{border:1px solid var(--line);background:#fff;border-radius:19px;padding:23px;position:relative;overflow:hidden;min-height:165px}.stat h3{font-size:15px;margin:0;color:var(--muted)}.stat strong{display:block;font-size:40px;letter-spacing:-1px;margin-top:22px;line-height:1.1}.stat strong small{font-size:16px;font-weight:500;letter-spacing:0}.stat p{font-size:12px;color:var(--muted);margin:10px 0 0}.stat-icon{position:absolute;right:19px;top:12px;font-size:46px;opacity:.85}.stat:nth-child(2){background:#fcf8ed}.stat:nth-child(3){background:#eff6f0}
+.guide{padding:80px 0 62px}.guide-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:16px}.guide-card{border:1px solid var(--line);border-radius:19px;background:#fff;padding:24px}.guide-card .tag{display:inline-block;color:#2d735f;background:#e8f2e9;border-radius:50px;padding:4px 9px;font-size:11px;font-weight:750}.guide-card h3{font-size:17px;margin:17px 0 11px}.guide-card p{margin:0;color:#63736c;font-size:13px;line-height:1.85}.guide-card strong{color:#174f41}
+.source-box{border-top:1px solid var(--line);padding:28px 0 46px;display:flex;justify-content:space-between;gap:20px}.source-box h3{font-size:16px;margin:0 0 11px}.source-box p{font-size:12px;color:var(--muted);max-width:520px;margin:0;line-height:1.8}.sources{display:flex;flex-direction:column;gap:7px;min-width:230px}.sources a{font-size:12px}
+footer{background:#ecf0e9;padding:23px 0;font-size:12px;color:#6c7b72}.footer-inner{display:flex;justify-content:space-between;gap:10px}
+@media(max-width:850px){.hero{grid-template-columns:1fr .35fr}.hero-illus{transform:scale(.8)}.visual{gap:12px}.dial{width:116px;height:116px;flex-basis:116px}.dial-core{width:88px;height:88px}.dial-core strong{font-size:23px}.plan{grid-template-columns:1fr}}
+@media(max-width:690px){.wrap{padding:0 18px}header .wrap{height:62px}.brand{font-size:18px}.nav{gap:13px}.nav a{font-size:12px}.nav a:nth-child(2){display:none}.hero{display:block;padding:47px 0 38px}.hero h1{font-size:40px;letter-spacing:-1.8px;margin:18px 0 13px}.hero p{font-size:15px}.hero-illus{display:none}.section-heading h2{font-size:24px}.calculator{grid-template-columns:1fr;gap:12px}.panel,.result,.plan{padding:22px;border-radius:18px}.result{min-height:365px}.target{font-size:56px}.plan{margin-top:12px;display:block}.summary-card{margin-top:20px;padding:19px}.stat-section,.guide{padding-top:58px}.stats{grid-template-columns:1fr 1fr;gap:10px}.stat{padding:18px;min-height:146px}.stat:nth-child(3){grid-column:1/-1}.stat strong{font-size:32px}.stat-icon{font-size:36px}.guide-grid{grid-template-columns:1fr;gap:10px}.source-box{display:block}.sources{margin-top:17px}.footer-inner{display:block}.footer-inner span{display:block;margin-bottom:5px}}
+@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}*{transition:none!important}}
+</style>
+</head>
+<body>
+<header><div class="wrap"><a class="brand" href="#top" aria-label="Egg Lab 首页"><span class="brand-mark"><svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M12 2C8.5 2 4.6 9 4.6 15.2a7.4 7.4 0 0014.8 0C19.4 9 15.5 2 12 2Z" fill="#fff3dd"/><circle cx="12" cy="15" r="3.9" fill="#F4B956"/></svg></span>Egg Lab <span style="color:#93a69b;font-weight:400">/</span> 蛋白质助手</a><nav class="nav" aria-label="导航"><a href="#calculator">开始计算</a><a href="#knowledge">营养知识</a><a href="#sources">参考资料</a></nav></div></header>
+<main id="top">
+<section class="wrap hero"><div><div class="eyebrow">🥚 NUTRITION MADE SIMPLE</div><h1>今天的蛋白质，<br><em>吃够了吗？</em></h1><p>不用猜每天该吃几个鸡蛋。输入体重、运动习惯与三餐摄入量，快速看懂蛋白质目标，以及鸡蛋能帮你补充多少。</p><div class="hero-tags"><span>✓ 即时计算</span><span>✓ 适配手机</span><span>✓ 无需注册</span><span>✓ 数据仅在浏览器处理</span></div></div><div class="hero-illus" aria-hidden="true"><div class="egg-wrap"></div><span class="floating float1">1 个鸡蛋 <b>≈ 6.3g</b></span><span class="floating float2">每天好好吃饭 ✦</span></div></section>
+<section class="wrap" id="calculator"><div class="section-heading"><div><h2>01 / 计算你的蛋白质需求</h2><p>先看全天需求，再决定有没有必要额外补充鸡蛋。</p></div></div>
+<div class="calculator">
+<div class="panel"><h3>基本信息</h3><div class="field"><div class="field-label"><label for="weight">当前体重</label><span class="number-unit"><input id="weight" type="number" min="35" max="200" step="1" value="70" inputmode="decimal" aria-label="体重，公斤"><small>kg</small></span></div><input aria-label="用滑块调整体重" type="range" id="weightRange" min="35" max="130" step="1" value="70"><div class="range-labels"><span>35 kg</span><span>130 kg</span></div></div>
+<div class="field"><div class="field-label">日常活动水平</div><div class="choices" role="group" aria-label="活动水平"><button class="choice" id="normal" type="button" aria-pressed="true"><strong>🚶 日常活动</strong><small>普通工作、步行<br>0.8–1.0 g/kg</small></button><button class="choice" id="train" type="button" aria-pressed="false"><strong>🏋️ 规律力量训练</strong><small>持续抗阻训练 / 增肌<br>1.4–2.0 g/kg</small></button></div><div class="small-note">这里的区间是简化估算，具体需求随年龄、健康状况及训练强度变化。</div></div>
+<div class="field"><div class="field-label"><label for="meals">三餐已摄入蛋白质（估算）</label><span class="number-unit"><input type="number" id="meals" min="0" max="300" step="1" value="45" inputmode="decimal" aria-label="今天三餐已摄入的蛋白质，克"><small>g</small></span></div><input type="range" id="mealsRange" min="0" max="150" step="1" value="45" aria-label="用滑块调整三餐蛋白质摄入量"><div class="range-labels"><span>0 g</span><span>150 g</span></div><div class="small-note">包含米饭、肉、鱼、奶、豆制品等。请勿重复计算下方计划补充的鸡蛋。</div></div></div>
+<div class="result" aria-live="polite"><div class="result-label">你的每日蛋白质参考目标</div><div class="target" id="target">56–70 <small>g / 天</small></div><div class="target-sub" id="rate">按体重 70 kg × 0.8–1.0 g/kg 计算</div><div class="rule"></div><div class="visual"><div class="dial" id="dial" style="--pct:0%"><div class="dial-core"><strong id="progressPct">0%</strong><span>目标下限达成</span></div></div><div class="visual-copy"><div class="result-label">当前方案预计摄入</div><strong id="total">54.9 g</strong><p id="gap">距离目标下限还差 1.1g</p></div></div><div class="result-note" id="advice">对于正常饮食的成年人，鸡蛋是蛋白质来源之一，但不必只靠鸡蛋补足缺口。</div></div>
+</div>
+<div class="plan"><div><h3>02 / 试着搭配鸡蛋</h3><p class="plan-desc">调整数量，即时查看鸡蛋补充量和全天合计。</p><div class="stepper"><div class="step-label">🥚 全蛋 <small>每个约 6.3g 蛋白质</small></div><div class="step-btns"><button type="button" id="wholeMinus" aria-label="减少一个全蛋">−</button><output id="wholeQty">1</output><button type="button" id="wholePlus" aria-label="增加一个全蛋">+</button></div></div><div class="stepper"><div class="step-label">◯ 额外蛋白 <small>每份约 3.6g 蛋白质</small></div><div class="step-btns"><button type="button" id="whiteMinus" aria-label="减少一份蛋白">−</button><output id="whiteQty">1</output><button type="button" id="whitePlus" aria-label="增加一份蛋白">+</button></div></div></div>
+<div class="summary-card" aria-live="polite"><div class="summary-top">鸡蛋计划额外提供</div><div class="summary-num" id="eggProtein">9.9 <small>g 蛋白质</small></div><div class="progress"><span id="fill"></span></div><p id="totalCopy">今日合计 54.9g / 目标下限 56g</p><p id="remaining">还差 1.1g，可搭配其他蛋白质食物。</p><div class="buttons"><button class="btn" type="button" id="copy">🔗 复制方案链接</button><button class="btn ghost" type="button" id="reset">恢复默认</button></div><div class="toast" id="toast" role="status"></div></div></div>
+</section>
+<section class="wrap stat-section" id="knowledge"><div class="section-heading"><div><h2>鸡蛋到底有多少蛋白质？</h2><p>按一枚大型鸡蛋估算，数据存在个体差异。</p></div></div><div class="stats"><article class="stat"><div class="stat-icon" aria-hidden="true">🥚</div><h3>1 个全蛋</h3><strong>6.3 <small>g</small></strong><p>蛋白质约 6–7g</p></article><article class="stat"><div class="stat-icon" aria-hidden="true">🥚🥚</div><h3>2 个全蛋</h3><strong>12.6 <small>g</small></strong><p>不是每天都需要额外吃两个</p></article><article class="stat"><div class="stat-icon" aria-hidden="true">◯</div><h3>1 份额外蛋白（蛋清）</h3><strong>3.6 <small>g</small></strong><p>脂肪含量低，可与其他食物搭配</p></article></div></section>
+<section class="wrap guide"><div class="section-heading"><div><h2>你应该怎么吃？</h2><p>总量达标和食物多样性，比单纯追求鸡蛋数量更重要。</p></div></div><div class="guide-grid"><article class="guide-card"><span class="tag">情况 01</span><h3>三餐已经吃够</h3><p><strong>无需额外补鸡蛋。</strong> 正常的肉、鱼、奶、豆和主食已经能提供相当数量的蛋白质。</p></article><article class="guide-card"><span class="tag">情况 02</span><h3>三餐略有不足</h3><p>可以把 <strong>1 个全蛋</strong>纳入当天饮食，或搭配牛奶、酸奶、豆制品等。计算器中的缺口不等于必须吃相应数量的鸡蛋。</p></article><article class="guide-card"><span class="tag">情况 03</span><h3>规律力量训练</h3><p>日需求可能更高，可将优质蛋白质<strong>分散到多餐</strong>摄入，鸡蛋只是其中一种选择。</p></article></div></section>
+<section class="wrap" id="sources"><div class="source-box"><div><h3>关于使用与健康提示</h3><p>本工具面向一般健康成年人，提供教育用途的粗略估算，并非个体医疗或营养处方。肾脏疾病、血脂异常、糖尿病、妊娠期等情况，或正在接受特殊饮食治疗时，应根据专业人士意见调整。美国心脏协会指出，健康成年人可将每天约 1 个全蛋纳入健康膳食模式，但存在特定疾病时需考虑个体限制。</p></div><div class="sources"><strong style="font-size:13px">参考来源</strong><a href="https://acl.gov/sites/default/files/nutrition/Nutrition-Needs_Protein_FINAL-2.18.20_508.pdf" target="_blank" rel="noopener noreferrer">美国 ACL：成年人蛋白质基本需求 ↗</a><a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC5477153/" target="_blank" rel="noopener noreferrer">ISSN：运动与蛋白质立场声明 ↗</a><a href="https://professional.heart.org/en/science-news/dietary-cholesterol-and-cardiovascular-risk/top-things-to-know" target="_blank" rel="noopener noreferrer">美国心脏协会：鸡蛋与心血管健康 ↗</a><a href="https://fdc.nal.usda.gov/" target="_blank" rel="noopener noreferrer">USDA FoodData Central：食物营养数据 ↗</a></div></div></section>
+</main>
+<footer><div class="wrap footer-inner"><span>© Egg Lab · 让营养计算变得简单。</span><span>无需账号 · 不存储个人健康数据 · 非医疗建议</span></div></footer>
+<script>
+(function(){
+"use strict";
+var state={weight:70,activity:"normal",meals:45,whole:1,white:1};
+var $=function(id){return document.getElementById(id);};
+var fmt=function(n){return (Math.round(n*10)/10).toFixed(1).replace(/\.0$/,"");};
+var clamp=function(n,lo,hi){return Math.min(hi,Math.max(lo,n));};
+var valid=function(value,fallback,lo,hi){var n=Number(value);return Number.isFinite(n)?clamp(n,lo,hi):fallback;};
+try {var q=new URLSearchParams(window.location.search);state.weight=valid(q.get("w")||70,70,35,200);state.activity=q.get("a")==="train"?"train":"normal";state.meals=valid(q.get("m")||45,45,0,300);state.whole=valid(q.get("e")||1,1,0,3);state.white=valid(q.get("c")||1,1,0,6);}catch(e){}
+function render(){
+ var rates=state.activity==="train"?[1.4,2]:[0.8,1];
+ var low=state.weight*rates[0],high=state.weight*rates[1];
+ var egg=state.whole*6.3+state.white*3.6,total=state.meals+egg;
+ var pct=clamp(Math.round(total/low*100),0,100), gap=Math.max(0,low-total);
+ $("weight").value=state.weight;$("weightRange").value=clamp(state.weight,35,130);
+ $("meals").value=state.meals;$("mealsRange").value=clamp(state.meals,0,150);
+ $("normal").setAttribute("aria-pressed",String(state.activity==="normal"));
+ $("train").setAttribute("aria-pressed",String(state.activity==="train"));
+ $("target").innerHTML=fmt(low)+"–"+fmt(high)+' <small>g / 天</small>';
+ $("rate").textContent="按体重 "+fmt(state.weight)+" kg × "+rates[0]+"–"+rates[1]+" g/kg 计算";
+ $("dial").style.setProperty("--pct",pct+"%");$("progressPct").textContent=pct+"%";
+ $("total").textContent=fmt(total)+" g";
+ $("gap").textContent=gap>0?"距离目标下限还差 "+fmt(gap)+" g":"已达到每日参考目标下限";
+ $("wholeQty").textContent=state.whole;$("whiteQty").textContent=state.white;
+ $("eggProtein").innerHTML=fmt(egg)+' <small>g 蛋白质</small>';
+ $("fill").style.width=pct+"%";
+ $("totalCopy").textContent="今日合计 "+fmt(total)+"g / 目标下限 "+fmt(low)+"g";
+ $("remaining").textContent=gap>0?"距离下限还差 "+fmt(gap)+"g；优先考虑多样化食物。":"已达到下限，可继续关注食物种类与全天分配。";
+ $("advice").textContent=state.activity==="train"?"经常力量训练的人可参考较高蛋白质摄入区间。尽量用不同食物分餐满足需求，不建议只靠鸡蛋补齐。":"正常饮食已能提供蛋白质时，不必额外补鸡蛋。鸡蛋可作为均衡饮食的一部分，重点仍是全天总量。";
+ $("wholeMinus").disabled=state.whole===0;$("wholePlus").disabled=state.whole===3;
+ $("whiteMinus").disabled=state.white===0;$("whitePlus").disabled=state.white===6;
+}
+function bindNumber(id,key,lo,hi){$(id).addEventListener("input",function(){if(this.value==="")return;state[key]=valid(this.value,state[key],lo,hi);render();});$(id).addEventListener("change",function(){state[key]=valid(this.value,state[key],lo,hi);render();});}
+bindNumber("weight","weight",35,200);bindNumber("weightRange","weight",35,130);
+bindNumber("meals","meals",0,300);bindNumber("mealsRange","meals",0,150);
+$("normal").addEventListener("click",function(){state.activity="normal";render();});
+$("train").addEventListener("click",function(){state.activity="train";render();});
+[["wholeMinus","whole",-1,0,3],["wholePlus","whole",1,0,3],["whiteMinus","white",-1,0,6],["whitePlus","white",1,0,6]].forEach(function(item){$(item[0]).addEventListener("click",function(){state[item[1]]=clamp(state[item[1]]+item[2],item[3],item[4]);render();});});
+$("reset").addEventListener("click",function(){state={weight:70,activity:"normal",meals:45,whole:1,white:1};$("toast").textContent="已恢复默认方案";render();});
+$("copy").addEventListener("click",function(){
+ var u=new URL(window.location.href);u.search=new URLSearchParams({w:String(state.weight),a:state.activity,m:String(state.meals),e:String(state.whole),c:String(state.white)}).toString();
+ if(navigator.clipboard&&navigator.clipboard.writeText){navigator.clipboard.writeText(u.toString()).then(function(){$("toast").textContent="✓ 已复制！分享链接可保留你的计算参数。";},function(){window.prompt("复制以下链接",u.toString());});}
+ else{window.prompt("复制以下链接",u.toString());}
+});
+render();
+})();
+</script>
+</body>
+</html>
